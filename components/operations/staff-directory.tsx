@@ -1,9 +1,96 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, ArrowLeft, Phone, Mail, X, ArrowUpDown } from "lucide-react";
+import { Search, ArrowLeft, Phone, Mail, X, ArrowUpDown, Plus, Lock } from "lucide-react";
 import { STRUCTURES, type DirectoryEntry } from "@/lib/data/directory";
 import { useDirectoryStore } from "@/lib/store/directory-store";
+
+const OPS_PASSWORD = "GP2026";
+
+function AddContactForm({ onAdd, onCancel }: { onAdd: (entry: DirectoryEntry) => void; onCancel: () => void }) {
+  const [step, setStep] = useState<"auth" | "form">("auth");
+  const [pw, setPw] = useState("");
+  const [pwError, setPwError] = useState(false);
+  const [form, setForm] = useState<DirectoryEntry>({
+    name: "", email: "", phone: "", department: "", title: "", role: "", structure: "IN HOUSE",
+  });
+
+  function checkPassword() {
+    if (pw === OPS_PASSWORD) { setStep("form"); setPwError(false); }
+    else { setPwError(true); }
+  }
+
+  function handleSubmit() {
+    if (!form.name.trim() || !form.title.trim()) return;
+    onAdd(form);
+  }
+
+  if (step === "auth") {
+    return (
+      <div className="bg-terminal-panel border border-terminal-yellow/30 rounded p-4 space-y-3">
+        <div className="flex items-center gap-2 text-terminal-yellow text-terminal-sm font-medium tracking-wider">
+          <Lock size={14} /> ADD CONTACT
+        </div>
+        <input
+          type="password"
+          placeholder="Enter password..."
+          value={pw}
+          onChange={e => { setPw(e.target.value); setPwError(false); }}
+          onKeyDown={e => e.key === "Enter" && checkPassword()}
+          className="w-full bg-terminal-bg border border-border rounded px-3 py-2 text-terminal-sm outline-none focus:border-terminal-yellow/50"
+        />
+        {pwError && <p className="text-terminal-red text-terminal-xs">Incorrect password</p>}
+        <div className="flex gap-2">
+          <button onClick={checkPassword} className="flex-1 bg-terminal-yellow/10 border border-terminal-yellow/40 text-terminal-yellow text-terminal-sm rounded py-1.5 hover:bg-terminal-yellow/20 transition-colors">
+            Unlock
+          </button>
+          <button onClick={onCancel} className="px-3 border border-border text-terminal-dim text-terminal-sm rounded py-1.5 hover:text-foreground transition-colors">
+            Cancel
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const fields: { key: keyof DirectoryEntry; label: string; required?: boolean }[] = [
+    { key: "name", label: "Name", required: true },
+    { key: "title", label: "Title / Role", required: true },
+    { key: "department", label: "Department" },
+    { key: "structure", label: "Type (IN HOUSE / CONSULTANT / etc.)" },
+    { key: "email", label: "Email" },
+    { key: "phone", label: "Phone" },
+    { key: "role", label: "Notes" },
+  ];
+
+  return (
+    <div className="bg-terminal-panel border border-terminal-yellow/30 rounded p-4 space-y-3">
+      <div className="text-terminal-yellow text-terminal-sm font-medium tracking-wider">NEW CONTACT</div>
+      {fields.map(f => (
+        <div key={f.key}>
+          <label className="text-terminal-xs text-terminal-dim tracking-wider uppercase block mb-1">{f.label}{f.required && " *"}</label>
+          <input
+            type="text"
+            value={form[f.key]}
+            onChange={e => setForm(prev => ({ ...prev, [f.key]: e.target.value }))}
+            className="w-full bg-terminal-bg border border-border rounded px-3 py-1.5 text-terminal-sm outline-none focus:border-terminal-yellow/50"
+          />
+        </div>
+      ))}
+      <div className="flex gap-2 pt-1">
+        <button
+          onClick={handleSubmit}
+          disabled={!form.name.trim() || !form.title.trim()}
+          className="flex-1 bg-terminal-yellow/10 border border-terminal-yellow/40 text-terminal-yellow text-terminal-sm rounded py-1.5 hover:bg-terminal-yellow/20 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+        >
+          Add Contact
+        </button>
+        <button onClick={onCancel} className="px-3 border border-border text-terminal-dim text-terminal-sm rounded py-1.5 hover:text-foreground transition-colors">
+          Cancel
+        </button>
+      </div>
+    </div>
+  );
+}
 
 type SortKey = "name" | "department";
 
@@ -147,7 +234,14 @@ export function StaffDirectory() {
   const [filterStructure, setFilterStructure] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<SortKey>("name");
   const [selected, setSelected] = useState<DirectoryEntry | null>(null);
+  const [showAddForm, setShowAddForm] = useState(false);
   const directory = useDirectoryStore((s) => s.getDirectory());
+  const setDirectory = useDirectoryStore((s) => s.setDirectory);
+
+  function handleAddContact(entry: DirectoryEntry) {
+    setDirectory([...directory, entry]);
+    setShowAddForm(false);
+  }
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase();
@@ -191,8 +285,14 @@ export function StaffDirectory() {
 
   return (
     <div className="space-y-3">
-      {/* Search */}
-      <div className="relative">
+      {/* Add contact form */}
+      {showAddForm && (
+        <AddContactForm onAdd={handleAddContact} onCancel={() => setShowAddForm(false)} />
+      )}
+
+      {/* Search + Add button */}
+      <div className="flex gap-2">
+      <div className="relative flex-1">
         <Search
           size={14}
           className="absolute left-3 top-1/2 -translate-y-1/2 text-terminal-dim"
@@ -212,6 +312,14 @@ export function StaffDirectory() {
             <X size={14} />
           </button>
         )}
+      </div>
+        <button
+          onClick={() => setShowAddForm(!showAddForm)}
+          className="flex items-center gap-1.5 px-3 py-2 border border-border rounded text-terminal-dim hover:text-terminal-yellow hover:border-terminal-yellow/40 transition-colors text-terminal-sm shrink-0"
+        >
+          <Plus size={14} />
+          Add
+        </button>
       </div>
 
       {/* Sort + Filter row */}
