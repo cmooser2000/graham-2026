@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-04-07T00:00:00.000Z",
-  "data_source": "Google Trends (unofficial API, relative index only — 100 = peak interest)",
-  "source_url": "https://trends.google.com/trends/explore?q=Graham+Platner&geo=US-ME",
-  "geo": "US-ME",
-  "note": "Google Trends time-series data not yet collected for Maine 2026 Senate race. Known interest spikes below.",
-  "known_spike_events": [
-    { "date": "2025-08-19", "event": "Campaign launch — video went viral, 2.5M views in 24h" },
-    { "date": "2025-10-01", "event": "Reddit posts controversy surfaced" },
-    { "date": "2026-02-24", "event": "UNH poll shows 64-26 lead over Mills" },
-    { "date": "2026-03-02", "event": "Second senator endorsement — Washington Post coverage" },
-    { "date": "2026-04-06", "event": "WaPo/Press Herald trivia and happy hours campaign stories" }
-  ],
-  "timeSeries": [],
-  "analytics": {},
-  "meta": {
-    "dateRange": { "from": null, "to": null },
-    "lastDataDate": null,
-    "totalDataPoints": 0,
-    "candidateCount": 0,
-    "note": "Time-series not yet collected. See source_url for live data."
-  }
+  "generated_at": "2026-04-08T20:09:33.062Z",
+  "period": {
+    "start": "",
+    "end": "",
+    "timeframe": "today 1-m"
+  },
+  "region": "US-CA",
+  "note": "Google Trends API unavailable after retries. Rate-limited or blocked.",
+  "candidates": {}
 }
