@@ -1,7 +1,6 @@
 "use client";
 
 import { ReactNode } from "react";
-import { CommandBar } from "./command-bar";
 import { NavTabs } from "./nav-tabs";
 import { StatusBar } from "./status-bar";
 
@@ -12,7 +11,6 @@ export function TerminalShell({ children }: { children: ReactNode }) {
       <main className="flex-1 overflow-y-auto overflow-x-hidden">
         {children}
       </main>
-      <CommandBar />
       <NavTabs />
     </div>
   );
