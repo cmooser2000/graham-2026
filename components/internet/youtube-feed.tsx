@@ -104,8 +104,8 @@ export function YoutubeFeed() {
               <div key={ch.candidate_name} className="flex items-center gap-3 bg-terminal-panel border border-border rounded px-3 py-2">
                 <span className="text-terminal-sm font-medium w-[120px] truncate">{ch.candidate_name}</span>
                 <span className="text-terminal-xs text-terminal-dim">{ch.handle}</span>
-                <span className="text-terminal-sm text-terminal-yellow tabular-nums ml-auto">{formatCount(ch.subscribers)} subs</span>
-                <span className="text-terminal-xs text-terminal-dim">{ch.total_videos} videos</span>
+                <span className="text-terminal-sm text-terminal-yellow tabular-nums ml-auto">{ch.subscribers != null ? `${formatCount(ch.subscribers)} subs` : "subs N/A"}</span>
+                <span className="text-terminal-xs text-terminal-dim">{ch.total_videos != null ? `${ch.total_videos} videos` : ""}</span>
               </div>
             ))}
           </div>
