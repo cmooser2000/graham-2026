@@ -12,12 +12,20 @@ export interface OpsLink {
 
 const DEFAULT_LINKS: OpsLink[] = [
   {
-    label: "Donor Wiring Instructions",
-    url: "https://drive.google.com/file/d/1ywpykU7zMkeFL7Xruzcr19IPLAs_Idx_/view?usp=drivesdk",
+    label: "Graham for Maine — Official Campaign Site",
+    url: "https://grahamformaine.com",
   },
   {
-    label: "Receipts Submission",
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSd7_IqGLFLHjgV4amizcX1VBrqkl5YBdPX7w7w_ThYIKsMNhA/viewform?usp=preview",
+    label: "FEC Filing — Graham Platner (C00916437)",
+    url: "https://www.fec.gov/data/committee/C00916437/",
+  },
+  {
+    label: "Donate to Graham Platner",
+    url: "https://grahamformaine.com/donate",
+  },
+  {
+    label: "Volunteer with Graham for Maine",
+    url: "https://grahamformaine.com/volunteer",
   },
 ];
 
@@ -53,7 +61,7 @@ export const useDirectoryStore = create<DirectoryStore>()(
       resetAll: () => set({ directory: null, links: null }),
     }),
     {
-      name: "swallwell:ops",
+      name: "platner:ops",
     }
   )
 );
