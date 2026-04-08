@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-04-07T00:00:00.000Z",
+  "data_pull_date": "April 07, 2026",
+  "data_source": "FEC.gov, public polling, Polymarket, Kalshi, press reports",
+  "race": "Maine U.S. Senate 2026",
+  "observations": [
+    "Platner raised $7.87M through Dec 31, 2025 — overwhelming small-dollar grassroots: 99% of Q4 donations under $200 (avg $25.88).",
+    "Collins has cash-on-hand advantage ($8.0M vs Platner's $3.7M) but faces structural headwinds with -30 net unfavorable among independents.",
+    "Senate Leadership Fund committed ~$42M in outside spending to defend Collins — the biggest outside spending commitment in the race.",
+    "Platner leading every public primary poll: 55-28 (Emerson, Mar 2026), 64-26 (UNH, Feb 2026), 66-28 (Impact Research, Mar 2026).",
+    "Prediction markets heavily favor Platner: 92% on Polymarket, 80-82% on Kalshi to win Democratic primary.",
+    "General election polling shows Platner ahead of Collins: 48-41 (Emerson), 49-38 (UNH), 44-40 (Pan Atlantic).",
+    "Platner campaign pivoting to general election focus against Collins as of April 2026.",
+    "Instagram is Platner's dominant social channel (~310K followers), dwarfing X (~84.8K) and Facebook (~118K).",
+    "Campaign launch video received an estimated 2.5M views in 24 hours — unprecedented for a first-time Senate candidate.",
+    "Platner raised $1M in first 9 days (avg donation $33) and $4.6M in Q4 2025 alone — one of the strongest small-dollar Senate fundraising runs in recent cycles."
+  ],
+  "finance_summary": {
+    "Graham Platner": {
+      "cash_on_hand": 3717277.65,
+      "total_raised": 7867907.68,
+      "total_spent": 4150630.03,
+      "burn_rate": 0.527,
+      "avg_donation_q4": 25.88,
+      "pct_under_200_q4": 0.99,
+      "source": "https://www.fec.gov/data/committee/C00916437/"
+    },
+    "Susan Collins": {
+      "cash_on_hand": 8039233.60,
+      "total_raised": 10153541.96,
+      "total_spent": 3409500.84,
+      "burn_rate": 0.336,
+      "outside_spending_committed": 42000000,
+      "outside_spending_source": "Senate Leadership Fund",
+      "source": "https://www.fec.gov/data/committee/C00314575/"
+    },
+    "Janet Mills": {
+      "cash_on_hand": 1310280.47,
+      "total_raised": 2706691.86,
+      "total_spent": 1396411.39,
+      "burn_rate": 0.516,
+      "source": "https://www.fec.gov/data/committee/C00923144/"
+    }
+  },
+  "poll_averages": {
+    "primary": {
+      "Platner": 57.75,
+      "Mills": 30.25,
+      "note": "Average across Emerson (55/28), UNH (64/26), Pan Atlantic (46/39), Impact Research (66/28)"
+    },
+    "general": {
+      "Platner": 47.0,
+      "Collins": 39.67,
+      "note": "Average across Emerson (48/41), UNH (49/38), Pan Atlantic (44/40)"
+    }
+  },
+  "market_odds": {
+    "primary": {
+      "Platner": { "polymarket": 92, "kalshi": 81, "source_poly": "https://polymarket.com/event/maine-democratic-senate-primary-winner", "source_kalshi": "https://kalshi.com/markets/kxsenatemed/med/kxsenatemed-26" }
+    },
+    "general": {
+      "Democrat": { "polymarket": 77, "kalshi": 71, "source_poly": "https://polymarket.com/event/maine-senate-election-winner" }
+    }
+  },
+  "rankings": {
+    "by_cash": ["Susan Collins", "Graham Platner", "Janet Mills"],
+    "by_total_raised": ["Susan Collins", "Graham Platner", "Janet Mills"],
+    "by_poll_primary": ["Graham Platner", "Janet Mills"],
+    "by_market_odds_primary": ["Graham Platner", "Janet Mills"]
+  },
+  "key_dates": {
+    "maine_democratic_primary": "2026-06-09",
+    "general_election": "2026-11-03",
+    "next_fec_deadline": "2026-04-15",
+    "source": "FEC.gov"
+  }
+}

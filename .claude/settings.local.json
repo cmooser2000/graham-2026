@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.fec.gov)",
+      "WebFetch(domain:api.open.fec.gov)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:ballotpedia.org)",
+      "WebFetch(domain:polymarket.com)",
+      "WebFetch(domain:kalshi.com)",
+      "WebFetch(domain:emersoncollegepolling.com)",
+      "WebFetch(domain:www.270towin.com)",
+      "WebFetch(domain:mainemorningstar.com)",
+      "WebFetch(domain:scholars.unh.edu)",
+      "WebFetch(domain:www.axios.com)",
+      "WebFetch(domain:www.mainepublic.org)",
+      "Bash(npm run:*)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/chelseaconfalone/**)",
+      "Read(//Users/chelseaconfalone/.volta/bin/**)"
+    ]
+  }
+}

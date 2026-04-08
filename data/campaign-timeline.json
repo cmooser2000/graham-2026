@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-04-08T00:00:00.000Z",
+  "data_source": "FEC.gov quarterly filings — exact figures",
+  "note": "Monthly breakdown unavailable (FEC /by_month/ endpoint returned HTTP 500). Timeline built from quarterly F3 filings. Q1 2026 (Jan-Mar) not yet filed; due April 15, 2026.",
+  "timeline": [
+    {
+      "candidate_name": "Graham Platner",
+      "party": "D",
+      "period": "Q3 2025",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "receipts": 3248760.24,
+      "disbursements": 1007837.46,
+      "cash_on_hand_end": 2240922.78,
+      "cumulative_raised": 3248760.24,
+      "source": "FEC Form F3, filed 2025-10-15"
+    },
+    {
+      "candidate_name": "Graham Platner",
+      "party": "D",
+      "period": "Q4 2025",
+      "period_start": "2025-10-01",
+      "period_end": "2025-12-31",
+      "receipts": 4619147.44,
+      "disbursements": 3142792.57,
+      "cash_on_hand_end": 3717277.65,
+      "cumulative_raised": 7867907.68,
+      "source": "FEC Form F3, filed 2026-01-31",
+      "note": "Q4 alone raised $4.62M — avg donation $25.88, 99% under $200"
+    },
+    {
+      "candidate_name": "Susan Collins",
+      "party": "R",
+      "period": "Q1 2025",
+      "period_start": "2025-01-01",
+      "period_end": "2025-03-31",
+      "receipts": 842366.72,
+      "disbursements": 203757.38,
+      "cash_on_hand_end": 3214918.24,
+      "source": "FEC Form F3, filed 2025-04-13"
+    },
+    {
+      "candidate_name": "Susan Collins",
+      "party": "R",
+      "period": "Q2 2025",
+      "period_start": "2025-04-01",
+      "period_end": "2025-06-30",
+      "receipts": 2411723.59,
+      "disbursements": 370724.67,
+      "cash_on_hand_end": 5255917.16,
+      "source": "FEC Form F3, filed 2025-07-14"
+    },
+    {
+      "candidate_name": "Susan Collins",
+      "party": "R",
+      "period": "Q3 2025",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "receipts": 1919431.57,
+      "disbursements": 473241.48,
+      "cash_on_hand_end": 6702107.25,
+      "source": "FEC Form F3, filed 2025-10-15"
+    },
+    {
+      "candidate_name": "Susan Collins",
+      "party": "R",
+      "period": "Q4 2025",
+      "period_start": "2025-10-01",
+      "period_end": "2025-12-31",
+      "receipts": 2219769.52,
+      "disbursements": 882643.17,
+      "cash_on_hand_end": 8039233.60,
+      "source": "FEC Form F3, filed 2026-01-31"
+    },
+    {
+      "candidate_name": "Janet Mills",
+      "party": "D",
+      "period": "Q4 2025",
+      "period_start": "2025-10-01",
+      "period_end": "2025-12-31",
+      "receipts": 2706691.86,
+      "disbursements": 1396411.39,
+      "cash_on_hand_end": 1310280.47,
+      "source": "FEC Form F3, filed 2026-01-31",
+      "note": "Only period available — Mills filed candidacy October 14, 2025"
+    }
+  ]
+}

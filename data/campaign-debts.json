@@ -1,0 +1,400 @@
+{
+  "generated_at": "2026-04-05T07:32:10.558913",
+  "data_source": "CAL-ACCESS DEBT_CD + LOAN_CD",
+  "candidates": {
+    "Eric Swalwell": {
+      "filer_id": 1485146,
+      "total_debt": 95659.26,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "Meyer",
+          "amount": 19765.02
+        },
+        {
+          "creditor": "Hodge",
+          "amount": 15000.0
+        },
+        {
+          "creditor": "Throughline Group, LLC.",
+          "amount": 14900.0
+        },
+        {
+          "creditor": "Eleven Films",
+          "amount": 14300.0
+        },
+        {
+          "creditor": "Walsh",
+          "amount": 7348.01
+        },
+        {
+          "creditor": "NGP VAN",
+          "amount": 5516.4
+        },
+        {
+          "creditor": "Seinfeld",
+          "amount": 5395.15
+        },
+        {
+          "creditor": "Hirsch",
+          "amount": 3016.13
+        },
+        {
+          "creditor": "Dudley",
+          "amount": 2572.0
+        },
+        {
+          "creditor": "Liy",
+          "amount": 2418.6
+        }
+      ],
+      "top_lenders": []
+    },
+    "Antonio Villaraigosa": {
+      "filer_id": 1471635,
+      "total_debt": 146045.5,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "JPM&M, Inc.",
+          "amount": 50000.0
+        },
+        {
+          "creditor": "Rocket Science Strategies LLC",
+          "amount": 13000.0
+        },
+        {
+          "creditor": "BCom Solutions, LLC",
+          "amount": 12184.73
+        },
+        {
+          "creditor": "River City Business Services",
+          "amount": 11002.7
+        },
+        {
+          "creditor": "Key Lime Strategies and Media",
+          "amount": 10054.77
+        },
+        {
+          "creditor": "Rutan & Tucker, LLP",
+          "amount": 8996.25
+        },
+        {
+          "creditor": "RMEM, Inc.",
+          "amount": 8500.0
+        },
+        {
+          "creditor": "American Express",
+          "amount": 8228.47
+        },
+        {
+          "creditor": "Daniel C. Weitzman, LLC",
+          "amount": 6500.0
+        },
+        {
+          "creditor": "JLG Tribal Consulting",
+          "amount": 5000.0
+        }
+      ],
+      "top_lenders": []
+    },
+    "Katie Porter": {
+      "filer_id": 1479597,
+      "total_debt": 346210.57999999996,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "Middle Seat Consulting, LLC",
+          "amount": 139500.0
+        },
+        {
+          "creditor": "Click Strategies",
+          "amount": 77000.0
+        },
+        {
+          "creditor": "LAC, Inc.",
+          "amount": 37500.0
+        },
+        {
+          "creditor": "NGP Van dba EveryAction, Inc.",
+          "amount": 34850.0
+        },
+        {
+          "creditor": "Bedford Grove",
+          "amount": 20231.440000000002
+        },
+        {
+          "creditor": "Golden Campaigns",
+          "amount": 10000.0
+        },
+        {
+          "creditor": "Sullivan Insight",
+          "amount": 7500.0
+        },
+        {
+          "creditor": "New Partners Teleservices, LLC",
+          "amount": 6005.0
+        },
+        {
+          "creditor": "Capital One",
+          "amount": 3993.5299999999997
+        },
+        {
+          "creditor": "Strumwasser & Woocher, LLP",
+          "amount": 2463.5
+        }
+      ],
+      "top_lenders": []
+    },
+    "Tony Thurmond": {
+      "filer_id": 1461509,
+      "total_debt": 676224.5700000001,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "Annie Eagan Consulting",
+          "amount": 204899.72
+        },
+        {
+          "creditor": "Jacobson & Zilber Strategies LLC",
+          "amount": 198369.14
+        },
+        {
+          "creditor": "Mission Wired",
+          "amount": 171803.5
+        },
+        {
+          "creditor": "NWF Strategies",
+          "amount": 42000.0
+        },
+        {
+          "creditor": "NGP Van, Inc.",
+          "amount": 19343.75
+        },
+        {
+          "creditor": "Sarah Kate Levy Consulting LLC",
+          "amount": 17520.3
+        },
+        {
+          "creditor": "S.E. Owens & Company",
+          "amount": 7800.0
+        },
+        {
+          "creditor": "McKinley Pillows and Associates",
+          "amount": 6780.0
+        },
+        {
+          "creditor": "Alchemy Kitchen",
+          "amount": 5748.8
+        },
+        {
+          "creditor": "Nicely",
+          "amount": 1959.3600000000001
+        }
+      ],
+      "top_lenders": []
+    },
+    "Xavier Becerra": {
+      "filer_id": 1480025,
+      "total_debt": 182317.64,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "Anne Lewis Strategies, LLC",
+          "amount": 62448.53
+        },
+        {
+          "creditor": "Elias Law Group",
+          "amount": 47000.0
+        },
+        {
+          "creditor": "American Express",
+          "amount": 19886.61
+        },
+        {
+          "creditor": "Oasis Strategies, LLC",
+          "amount": 10000.0
+        },
+        {
+          "creditor": "Palafox",
+          "amount": 10000.0
+        },
+        {
+          "creditor": "Endless Creative Strategies",
+          "amount": 6588.360000000001
+        },
+        {
+          "creditor": "Kilmer Consulting Group",
+          "amount": 5000.0
+        },
+        {
+          "creditor": "Authentic Campaigns",
+          "amount": 5000.0
+        },
+        {
+          "creditor": "AL Media",
+          "amount": 4950.0
+        },
+        {
+          "creditor": "Civic North",
+          "amount": 3500.0
+        }
+      ],
+      "top_lenders": []
+    },
+    "Tom Steyer": {
+      "filer_id": 1485077,
+      "total_debt": 420906.76999999996,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "Steyer PAC",
+          "amount": 114039.0
+        },
+        {
+          "creditor": "Patronage",
+          "amount": 63250.0
+        },
+        {
+          "creditor": "Hyperakt Design Group",
+          "amount": 36000.0
+        },
+        {
+          "creditor": "Operativo, LLC",
+          "amount": 35000.0
+        },
+        {
+          "creditor": "Tuple Legal",
+          "amount": 28779.57
+        },
+        {
+          "creditor": "Markham, LLC",
+          "amount": 24336.23
+        },
+        {
+          "creditor": "Wex, Inc.",
+          "amount": 21138.45
+        },
+        {
+          "creditor": "Hart",
+          "amount": 16198.63
+        },
+        {
+          "creditor": "Profound Placement",
+          "amount": 16000.0
+        },
+        {
+          "creditor": "Grizzly Bear Media",
+          "amount": 10000.0
+        }
+      ],
+      "top_lenders": []
+    },
+    "Betty Yee": {
+      "filer_id": 1465732,
+      "total_debt": 225771.47,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "WestWest Digital",
+          "amount": 190566.18
+        },
+        {
+          "creditor": "Relentless Campaigns",
+          "amount": 11250.0
+        },
+        {
+          "creditor": "WeAreRally, LLC",
+          "amount": 11213.15
+        },
+        {
+          "creditor": "Public Policy Solutions, Inc.",
+          "amount": 7893.37
+        },
+        {
+          "creditor": "FNBO",
+          "amount": 2848.77
+        },
+        {
+          "creditor": "Sandra Lowe Consulting LLC",
+          "amount": 2000.0
+        }
+      ],
+      "top_lenders": []
+    },
+    "Chad Bianco": {
+      "filer_id": 1479095,
+      "total_debt": 4713.75,
+      "total_loans": 0,
+      "self_loans": 0,
+      "top_creditors": [
+        {
+          "creditor": "Angelo's Brick Oven Pizzeria",
+          "amount": 4713.75
+        }
+      ],
+      "top_lenders": []
+    },
+    "Steve Hilton": {
+      "filer_id": 1480425,
+      "total_debt": 607948.9900000001,
+      "total_loans": 100000.0,
+      "self_loans": 100000.0,
+      "top_creditors": [
+        {
+          "creditor": "Liquid Consulting LLC",
+          "amount": 190795.66999999998
+        },
+        {
+          "creditor": "Rockwell Solutions",
+          "amount": 130151.0
+        },
+        {
+          "creditor": "Convergence Media LLC",
+          "amount": 78663.82
+        },
+        {
+          "creditor": "Pluvious Group LLC",
+          "amount": 64994.83
+        },
+        {
+          "creditor": "Blitz Digital Group",
+          "amount": 39815.69
+        },
+        {
+          "creditor": "Chase Card Services",
+          "amount": 26927.14
+        },
+        {
+          "creditor": "The Central Valley Group",
+          "amount": 22932.72
+        },
+        {
+          "creditor": "Javelin Group LLC",
+          "amount": 15000.0
+        },
+        {
+          "creditor": "Dorsee Productions",
+          "amount": 11300.0
+        },
+        {
+          "creditor": "Shames",
+          "amount": 8368.119999999999
+        }
+      ],
+      "top_lenders": [
+        {
+          "lender": "Hilton",
+          "amount": 100000.0
+        }
+      ]
+    }
+  }
+}

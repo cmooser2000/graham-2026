@@ -1,0 +1,282 @@
+{
+  "success": true,
+  "collected_at": "2026-02-02T05:04:03.499Z",
+  "summary": {
+    "totalMentions": 14,
+    "totalViews": 9522651,
+    "totalEngagement": 11082090,
+    "sentiment": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 14
+    }
+  },
+  "results": [
+    {
+      "id": "7593451579794083102",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@usatoday/video/7593451579794083102",
+      "thumbnail": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/ogVbcbDnIFAvQtCY4AEVAtCAErVwfVyCpPeDAQ~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=JCeAtKXfUUBpp97rPAOgrWkU%2FSA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Rep. Eric Swalwell focused in on Renee Good's glove compartment filled with stuffed animals at a House Judiciary committee hearing. #politics #reneegood #iceshooting",
+      "views": 6200000,
+      "likes": 310000,
+      "comments": 4312,
+      "shares": 8549,
+      "engagement": 7185756,
+      "createdAt": "2026-01-09T23:05:00.000Z",
+      "author": {
+        "username": "usatoday",
+        "nickname": "USA TODAY",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7310068855870685190~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=dff149f9&x-expires=1770181200&x-signature=KypCr4pO5rIvf%2FveTj0v%2F3xpRn0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7565939812214033719",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@dailymail/video/7565939812214033719",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owIAfjeJNJzAtAWYsLQAHLIOwnGXRfA1SeEbgI~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=mjoZVqIc6goCGup6uG%2B6Z24Jarg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "A California Democrat has called on presidential hopefuls in the 2028 race to vow to 'tear down' Donald Trump's $250million golden ballroom 'on day one.' Eric Swalwell demanded fellow Democrats considering running in the next election take a firm stand against the ballroom, which is already under construction and has been funded by private donors. Find out more at Daily Mail. #donaldtrump #whitehouse #news #us #democrat",
+      "views": 1600000,
+      "likes": 57100,
+      "comments": 2267,
+      "shares": 505,
+      "engagement": 1784655,
+      "createdAt": "2025-10-27T16:31:38.000Z",
+      "author": {
+        "username": "dailymail",
+        "nickname": "Daily Mail",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d286fcc626ea9c7ce367e74b5ad5305f~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=81cf6586&x-expires=1770181200&x-signature=bazAUmYnL3l5OVW2BJiZoemeX8E%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7551176516172926221",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@cbsnews/video/7551176516172926221",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oAGFEYhygspRAIZzowI7esF1ECDLSyfKBhCrD9~tplv-tiktokx-dmt-logom:tos-useast5-i-0068-tx/oUsyDfn3EEoSQmVUGAogFC4WI8RyAAsmGDeAiT.image?dr=14573&x-expires=1770181200&x-signature=RKqh2YfqNG%2BTx4BggCICQhO2T78%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "During his second day of testimony on Capitol Hill, Democratic Rep. Eric Swalwell of California focused his questions to FBI Director Kash Patel on what Patel has discussed with President Trump and Attorney General Pam Bondi about the Epstein files. Swalwell repeatedly pressed Patel on whether he had told Bondi that Trump’s name appears in the files. \"Did you ever tell Donald Trump that his name is in the files?\" Swalwell asked. \"I have never spoken to President Trump about the Epstein files,\" Patel replied. #kashpatel #epstein #trump #fbi #news ",
+      "views": 1300000,
+      "likes": 71300,
+      "comments": 2963,
+      "shares": 6431,
+      "engagement": 1554439,
+      "createdAt": "2025-09-17T21:42:17.000Z",
+      "author": {
+        "username": "cbsnews",
+        "nickname": "cbsnews",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/a2edad91b487092022dcad53483d6f19~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=bb99ef41&x-expires=1770181200&x-signature=TY%2BjmHovBRvanN4mfpncWzWdaOE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7575038201920900407",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@meidastouch/video/7575038201920900407",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/osQDSPA2DyofEEugoiEHmSAAEAkSfBAIuAfFr8~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=qBuVbi8srfVjOaP%2FdQfQOCk4KFA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "BREAKING: Congressman Eric Swalwell just announced he is running for governor of California",
+      "views": 98200,
+      "likes": 14900,
+      "comments": 1163,
+      "shares": 819,
+      "engagement": 151991,
+      "createdAt": "2025-11-21T05:35:00.000Z",
+      "author": {
+        "username": "meidastouch",
+        "nickname": "MeidasTouch",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/46ccdc7c69b32f042768ca27ac778fdc~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=dfcc23ff&x-expires=1770181200&x-signature=%2FNrJ4U0CC80bXdIUkYXbFCe%2BBHc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7575277833606417719",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@nbcnews/video/7575277833606417719",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oYSnXKAUQIqEbeAHZKSEDGeEQgpukVAeAA7LCr~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=bJC%2FvRAEBLS1hq4qJBrL7re4ky4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Rep. Eric Swalwell announced that he will be joining the crowded race for #California governor, becoming the latest Democrat to aim in succeeding outgoing Gov. Gavin Newsom.",
+      "views": 125300,
+      "likes": 7429,
+      "comments": 151,
+      "shares": 56,
+      "engagement": 148566,
+      "createdAt": "2025-11-21T20:45:00.000Z",
+      "author": {
+        "username": "nbcnews",
+        "nickname": "nbcnews",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/25eb446f0c8924ffab98c35960b0491e~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=2edd603a&x-expires=1770181200&x-signature=Rb2vrdj40TYmTFu5RvFw8%2BEeb4c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7596202344971275534",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@nbcsandiego/video/7596202344971275534",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-85c255-tx/oQJnHgeSkI7BZDLQO6WeCLQ17GCF9kIYKTfnXA~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=yOjvTEWg3eVtPBYCq1HpaYY%2BF24%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Rep. Eric Swalwell wants to be your next governor. He tells us how he plans to lower the cost of living and whether he'd declare a state of emergency over the Tijuana sewage crisis. #ericswalwell #california #sandiego #politics",
+      "views": 82400,
+      "likes": 4394,
+      "comments": 263,
+      "shares": 75,
+      "engagement": 97197,
+      "createdAt": "2026-01-17T05:45:06.000Z",
+      "author": {
+        "username": "nbcsandiego",
+        "nickname": "NBC San Diego",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7335161149094100998~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=14e02d52&x-expires=1770181200&x-signature=6Y6qDLkEInEJCr9rRzZ%2FIcfFNKI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7486970154476309806",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@stocking_the_capitol/video/7486970154476309806",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oIWnmDfqAAA3ARoMgEiO5DSBcfUJc7wiDECDnI~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=UYSBh0dvfnvQMEz1vnFBKlehgNU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Today: Rep. Eric Swalwell from California’s 14th Congressional District  Sources: FEC, OpenSecrets, Quiver Quantitative  #money #politics ",
+      "views": 69900,
+      "likes": 7054,
+      "comments": 241,
+      "shares": 77,
+      "engagement": 92575,
+      "createdAt": "2025-03-28T21:08:11.000Z",
+      "author": {
+        "username": "stocking_the_capitol",
+        "nickname": "Nico (Stocking the Capitol)",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/bdccf92fe682d78f61d3df740dc9ee39~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=7fcd39e5&x-expires=1770181200&x-signature=90fF%2BKkUcTejTS0GQEp2O4iGV%2FU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7596487734886173966",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@purpleroompolitics/video/7596487734886173966",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oM1CEssERSefbVRCJgCCPILbIAnpO7DH8iXDFB~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=iMbxRakixVMIBAJH3DRwhGlHpfc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Rep. Eric Swalwell (D-CA) vowed that if he becomes California’s next governor he will revoke the driver’s licenses of any ICE agents — or “a**holes” as he put it — who wear masks while driving. Swalwell shared his plan during a summit hosted by the Empowerment Congress in Los Angeles on Saturday. The nonprofit group aims to “fight racial and economic disparities, using tools like annual summits, partnerships, and community training programs to educate, engage, and empower residents,” according to its website.",
+      "views": 25500,
+      "likes": 3444,
+      "comments": 209,
+      "shares": 535,
+      "engagement": 39017,
+      "createdAt": "2026-01-18T00:12:33.000Z",
+      "author": {
+        "username": "purpleroompolitics",
+        "nickname": "PurpleRoomPolitics",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/701f48db29f73b13e6d40aecbf36e235~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=f5bf3bb4&x-expires=1770181200&x-signature=nxA4%2BH6UgYr%2Be9djhLGO5TQO%2F8c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7575353033823964447",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@stevehilton/video/7575353033823964447",
+      "thumbnail": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/owMD4AqCpUE1zsbhB4iiAeBLEIARXOyIEgf2VQ~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=TGIfrVvhKUy%2BqSGY9lLPBaeCuDc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Eric Swalwell just said his number one job as California governor would be to “fight Trump.”  How disgusting. My number one job will be to clean up the mess created by Democrats. ",
+      "views": 10500,
+      "likes": 1493,
+      "comments": 91,
+      "shares": 39,
+      "engagement": 15590,
+      "createdAt": "2025-11-22T01:19:01.000Z",
+      "author": {
+        "username": "stevehilton",
+        "nickname": "Steve Hilton",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3db6372e023ee1e97ef3987866f3741f~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=851f55d8&x-expires=1770181200&x-signature=%2BIsjY9GK77WCw8qEIbnGMjNMM9M%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7590048121183276319",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@datoprotegido0/video/7590048121183276319",
+      "thumbnail": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/owRPhDBVjVBIEAVRJr5pkiy2pBJVRiEaAV6Zk~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=ZwjsjeDGDh3MWyc3C%2BJsLAimCUE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Eric Swalwell says if he is elected governor of California, he will make sure federal agents are charged with \"kidnapping\" and \"assault\" and will take away their driver's licenses.",
+      "views": 5563,
+      "likes": 60,
+      "comments": 122,
+      "shares": 10,
+      "engagement": 6393,
+      "createdAt": "2025-12-31T15:43:20.000Z",
+      "author": {
+        "username": "datoprotegido0",
+        "nickname": "El Tlatoani",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/bbb255fe14c75b61bdcba439160e2d4b~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=82bb610e&x-expires=1770181200&x-signature=0U6ZZwjWbAzc0FGUo6L2a369cVg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7588955094784150797",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@mom.of.3._/video/7588955094784150797",
+      "thumbnail": "https://p19-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oYlQIIkjAIssg5GOHHAL8oogEeYfSdIClBSeRA~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=eTaLAoshnypTTKzBa%2BpSmfQgsWU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my3",
+      "description": "BREAKING: In a mask-off moment, Rep. Eric Swalwell confirms the Democrats' top campaign platform in the 2026 midterms is weaponiz*tion of government against President Trump - Impeachment - Holding people in contempt - Restricting funding \"That's what we're willing to do if given the majority!\" They don't even hide it. #fyp #campaign #democrat #trump #impeachment ",
+      "views": 1733,
+      "likes": 39,
+      "comments": 13,
+      "shares": 2,
+      "engagement": 1923,
+      "createdAt": "2025-12-28T17:02:04.000Z",
+      "author": {
+        "username": "mom.of.3._",
+        "nickname": "Kandt_W🦋",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/21bab97fb37f447b8e0a3131fa5988fb~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=06a29b2e&x-expires=1770181200&x-signature=tMWTCiSRlCeAXQQ%2ByhgSI5K6k8E%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7598349201432399159",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@antonioforcalifornia/video/7598349201432399159",
+      "thumbnail": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQQulSPINCYfrAjbewgATXQHOhMPr5De18gdNk~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=IUuSOyW5JKNY9J2%2Fnnvml08x%2FVQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "While Antonio stood with Californians against dozens of ICE raids tearing through our communities, Eric Swalwell voted in Congress to thank ICE for “protecting the homeland.” #EricSwalwell #ICE #california #governor #politics ",
+      "views": 1509,
+      "likes": 28,
+      "comments": 1,
+      "shares": 5,
+      "engagement": 1618,
+      "createdAt": "2026-01-23T00:36:00.000Z",
+      "author": {
+        "username": "antonioforcalifornia",
+        "nickname": "Antonio Villaraigosa",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/9162440e899be59d30d7dd9373960b2e~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=c79574c4&x-expires=1770181200&x-signature=6ljvOozhoqkhHq%2FBih0xz6kHEVg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7596081589428309261",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@thelibsareresisting/video/7596081589428309261",
+      "thumbnail": "https://p19-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/ooPe7AfCSaIEDtRlEqgNInFETQnQqpqBDvDrBS~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=RFCsIHZHLGxqIJQB4h%2BhNIbqnUI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "Trump is only scared of one candidate. That man is going to be California’s next governor. #ericswalwell #california #swalwell #politics #governor",
+      "views": 1060,
+      "likes": 41,
+      "comments": 3,
+      "shares": 2,
+      "engagement": 1206,
+      "createdAt": "2026-01-16T21:56:34.000Z",
+      "author": {
+        "username": "thelibsareresisting",
+        "nickname": "The Libs Are Resisting",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/802d0a07093f34aed4a0c9c13c3cb4f9~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=fcf2d79e&x-expires=1770181200&x-signature=wH7yKBULAKhQH5WK2j9iC7NrD7g%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7576806264437574925",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@mobilevoting/video/7576806264437574925",
+      "thumbnail": "https://p19-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQmK3iAIpB0IkWCyOwJRAUULIfwCO0BiZBI4xC~tplv-tiktokx-origin.image?dr=14575&x-expires=1770181200&x-signature=xmIg2WzP9ZkvZc3ysWpxa%2BA9Glw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
+      "description": "BIG NEWS: @swalwell, now running for Governor of California, wants to bring mobile voting to all voters in the Golden State 🗳️📲🌉 #fyp #votingrights #democracy #california #politics",
+      "views": 986,
+      "likes": 40,
+      "comments": 10,
+      "shares": 2,
+      "engagement": 1164,
+      "createdAt": "2025-11-25T23:18:36.000Z",
+      "author": {
+        "username": "mobilevoting",
+        "nickname": "Mobile Voting",
+        "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7345431115189977131~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=db855422&x-expires=1770181200&x-signature=4H%2FQNBpGZQQqlWVf%2B1bfRjCj5WA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+      },
+      "sentiment": "neutral"
+    }
+  ]
+}

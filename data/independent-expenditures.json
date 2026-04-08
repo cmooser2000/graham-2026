@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-04-08T00:00:00.000Z",
+  "data_source": "FEC.gov Schedule E (itemized IEs) + press reports for committed outside spending",
+  "fec_url": "https://api.open.fec.gov/v1/schedules/schedule_e/?candidate_id=S6ME00373",
+  "note": "FEC Schedule E shows only $525 in IEs directly targeting Platner — all small, from one PAC. Major outside spending is committed to the general election (Collins defense) and not yet tagged to Platner's candidate ID.",
+  "summary": [
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "total_support": 525.00,
+      "total_oppose": 0,
+      "net_support": 525.00,
+      "fec_total_note": "Exact from FEC Schedule E — 5 records totaling $525",
+      "outside_spending_note": "No major Super PAC or 501(c)(4) spending targeting Platner in primary as of April 2026. Campaign is primarily self-funded through small-dollar grassroots.",
+      "fec_url": "https://www.fec.gov/data/candidate/S6ME00373/?tab=spent-by-others"
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "total_support": 59000000,
+      "total_oppose": 0,
+      "net_support": 59000000,
+      "outside_spending_note": "Senate Leadership Fund committed ~$42M (January 2026). One Nation (SLF 501c4) spent ~$17M through March 2026. Total race spending tops $37M as of late March. Estimated based on press reports.",
+      "source_slf": "https://www.pressherald.com/2026/01/20/susan-collins-reelection-bid-gets-42-million-boost-from-senate-majority-leader-pac/",
+      "source_one_nation": "https://www.axios.com/2026/03/16/one-nation-susan-collins-maine-senate-ad-buy",
+      "source_total": "https://www.mainepublic.org/politics/2026-03-20/8-months-until-election-day-and-spending-in-maine-u-s-senate-race-already-tops-37-million",
+      "fec_url": "https://www.fec.gov/data/candidate/S6ME00159/?tab=spent-by-others"
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "total_support": 0,
+      "total_oppose": 0,
+      "net_support": 0,
+      "outside_spending_note": "No major IEs reported for Mills primary campaign as of April 2026.",
+      "fec_url": "https://www.fec.gov/data/candidate/S6ME00407/?tab=spent-by-others"
+    }
+  ],
+  "committees": [
+    {
+      "committee_name": "Senate Leadership Fund",
+      "candidate_name": "Susan Collins",
+      "party": "R",
+      "support_oppose": "S",
+      "total": 42000000,
+      "type": "Super PAC",
+      "note": "Committed January 2026. Estimated based on press reports.",
+      "source_url": "https://www.pressherald.com/2026/01/20/susan-collins-reelection-bid-gets-42-million-boost-from-senate-majority-leader-pac/"
+    },
+    {
+      "committee_name": "One Nation",
+      "candidate_name": "Susan Collins",
+      "party": "R",
+      "support_oppose": "S",
+      "total": 17000000,
+      "type": "501(c)(4)",
+      "note": "Issue ads promoting Collins' Maine record. ~$17M spent through March 2026. Estimated based on press reports.",
+      "source_url": "https://www.axios.com/2026/03/16/one-nation-susan-collins-maine-senate-ad-buy"
+    },
+    {
+      "committee_name": "The People United PAC",
+      "candidate_name": "Graham Platner",
+      "party": "D",
+      "support_oppose": "S",
+      "total": 525.00,
+      "type": "Super PAC",
+      "note": "Exact from FEC Schedule E — 5 small disbursements ($75-$150 each), all for fundraising emails. Dallas, TX-based PAC.",
+      "source_url": "https://www.fec.gov/data/candidate/S6ME00373/?tab=spent-by-others"
+    }
+  ],
+  "expenditures": [
+    { "committee_name": "THE PEOPLE UNITED PAC", "candidate_name": "Graham Platner", "amount": 150.00, "date": "2025-12-27", "support_oppose": "S", "purpose": "Fundraising Email" },
+    { "committee_name": "THE PEOPLE UNITED PAC", "candidate_name": "Graham Platner", "amount": 150.00, "date": "2025-10-03", "support_oppose": "S", "purpose": "Fundraising Email" },
+    { "committee_name": "THE PEOPLE UNITED PAC", "candidate_name": "Graham Platner", "amount": 75.00,  "date": "2026-02-10", "support_oppose": "S", "purpose": "Fundraising Email" },
+    { "committee_name": "THE PEOPLE UNITED PAC", "candidate_name": "Graham Platner", "amount": 75.00,  "date": "2025-10-14", "support_oppose": "S", "purpose": "Fundraising Email" },
+    { "committee_name": "THE PEOPLE UNITED PAC", "candidate_name": "Graham Platner", "amount": 75.00,  "date": "2025-10-04", "support_oppose": "S", "purpose": "Fundraising Email" }
+  ]
+}

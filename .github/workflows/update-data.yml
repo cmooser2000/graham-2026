@@ -1,0 +1,106 @@
+name: Update Data Pipelines
+
+on:
+  schedule:
+    # Free pipelines every 6 hours: wiki + youtube-free + trends
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      pipelines:
+        description: 'Which pipelines to run'
+        required: false
+        default: 'all-free'
+        type: choice
+        options:
+          - all-free
+          - wiki
+          - youtube-free
+          - trends
+
+env:
+  NODE_VERSION: '20'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+jobs:
+  collect-and-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        run: npm install tsx pg --save-dev
+
+      - name: Determine pipelines to run
+        id: pipelines
+        run: |
+          PIPELINES="${{ github.event.inputs.pipelines || 'all-free' }}"
+          echo "run_wiki=false" >> $GITHUB_OUTPUT
+          echo "run_youtube_free=false" >> $GITHUB_OUTPUT
+          echo "run_trends=false" >> $GITHUB_OUTPUT
+          if [[ "$PIPELINES" == *"wiki"* ]] || [[ "$PIPELINES" == "all-free" ]]; then
+            echo "run_wiki=true" >> $GITHUB_OUTPUT
+          fi
+          if [[ "$PIPELINES" == "youtube-free" ]] || [[ "$PIPELINES" == "all-free" ]]; then
+            echo "run_youtube_free=true" >> $GITHUB_OUTPUT
+          fi
+          if [[ "$PIPELINES" == "trends" ]] || [[ "$PIPELINES" == "all-free" ]]; then
+            echo "run_trends=true" >> $GITHUB_OUTPUT
+          fi
+          echo "Running pipelines: $PIPELINES"
+
+      # --- WIKIPEDIA PAGEVIEWS (free, no auth, reliable) ---
+      - name: Collect Wikipedia pageviews
+        if: steps.pipelines.outputs.run_wiki == 'true'
+        run: npx tsx scripts/pipeline/update-wiki-pageviews.ts
+
+      # --- YOUTUBE FREE (YouTube Data API v3, requires YOUTUBE_API_KEY) ---
+      - name: Collect YouTube content (free API)
+        if: steps.pipelines.outputs.run_youtube_free == 'true' && env.YOUTUBE_API_KEY != ''
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: npx tsx scripts/pipeline/collect-youtube-free.ts
+
+      # --- GOOGLE TRENDS (unofficial, no auth needed, frequently rate-limited) ---
+      - name: Collect Google Trends data
+        if: steps.pipelines.outputs.run_trends == 'true'
+        continue-on-error: true
+        run: npx tsx scripts/pipeline/collect-trends-robust.ts
+
+      # --- COMMIT UPDATED JSON FILES ---
+      - name: Commit data updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "data: update pipelines $(date -u +%Y-%m-%d-%H%M)"
+            git stash --include-untracked
+            git pull --rebase origin main
+            git stash pop || true
+            git push
+          fi
+
+      # --- IMPORT TO NEON POSTGRES ---
+      - name: Import data to Neon database
+        if: env.DATABASE_URL != ''
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: npx tsx scripts/pipeline/import-to-neon.ts

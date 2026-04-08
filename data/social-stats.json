@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-04-07T00:00:00.000Z",
+  "data_source": "Platform search metadata and public profile pages",
+  "note": "Follower counts are estimated from search metadata snippets as of April 2026. Exact real-time counts require direct platform API access. All handles verified.",
+  "candidates": {
+    "Graham Platner": {
+      "party": "D",
+      "accounts": {
+        "instagram": {
+          "handle": "@grahamformaine",
+          "url": "https://instagram.com/grahamformaine",
+          "followers": 310000,
+          "followers_note": "Estimated based on search metadata snippets, April 2026",
+          "history": [
+            {"date": "2025-08-19", "followers": null, "note": "Campaign launch"},
+            {"date": "2025-10-01", "followers": null},
+            {"date": "2026-01-01", "followers": null},
+            {"date": "2026-02-01", "followers": null},
+            {"date": "2026-04-07", "followers": 310000}
+          ]
+        },
+        "x": {
+          "handle": "@grahamformaine",
+          "url": "https://x.com/grahamformaine",
+          "followers": 84800,
+          "followers_note": "Estimated based on search metadata snippets, April 2026",
+          "history": [
+            {"date": "2025-08-19", "followers": null, "note": "Campaign launch"},
+            {"date": "2025-10-01", "followers": null},
+            {"date": "2026-01-01", "followers": null},
+            {"date": "2026-02-01", "followers": null},
+            {"date": "2026-04-07", "followers": 84800}
+          ]
+        },
+        "facebook": {
+          "handle": "grahamformaine",
+          "url": "https://facebook.com/grahamformaine",
+          "followers": 118000,
+          "followers_note": "Estimated based on search metadata snippets, April 2026",
+          "history": [
+            {"date": "2025-08-19", "followers": null, "note": "Campaign launch"},
+            {"date": "2026-04-07", "followers": 118000}
+          ]
+        },
+        "youtube": {
+          "handle": "@grahamformaine",
+          "url": "https://youtube.com/@grahamformaine",
+          "followers": null,
+          "followers_note": "Channel confirmed on Ballotpedia but subscriber count not available",
+          "history": []
+        },
+        "tiktok": {
+          "handle": "@grahamformaine",
+          "url": "https://tiktok.com/@grahamformaine",
+          "followers": null,
+          "followers_note": "Account confirmed on Ballotpedia but follower count not available",
+          "history": []
+        }
+      },
+      "notable_metrics": {
+        "launch_video_views_24h": 2500000,
+        "launch_video_views_note": "Estimated based on press reports (Maine Morning Star, Aug 2026)",
+        "launch_video_views_source": "https://mainemorningstar.com/2025/08/28/the-oysterman-trying-to-oust-susan-collins-raised-1-million-in-nine-days/",
+        "volunteers": 6000,
+        "volunteers_note": "6,000+ volunteers by September 2025 per campaign reports",
+        "town_halls": 50,
+        "town_halls_note": "50+ town halls held by March 2026 per press reports"
+      }
+    },
+    "Susan Collins": {
+      "party": "R",
+      "accounts": {
+        "x": {
+          "handle": "@SenatorCollins",
+          "url": "https://x.com/SenatorCollins",
+          "followers": null,
+          "followers_note": "Not retrieved"
+        },
+        "facebook": {
+          "handle": "SenatorCollins",
+          "url": "https://facebook.com/SenatorCollins",
+          "followers": null,
+          "followers_note": "Not retrieved"
+        }
+      }
+    },
+    "Janet Mills": {
+      "party": "D",
+      "accounts": {
+        "x": {
+          "handle": "@GovJanetMills",
+          "url": "https://x.com/GovJanetMills",
+          "followers": null,
+          "followers_note": "Not retrieved"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-08T00:00:00.000Z",
+  "data_source": "FEC.gov Schedule B — Itemized Disbursements",
+  "fec_url": "https://api.open.fec.gov/v1/schedules/schedule_b/?committee_id=C00916437&sort=-disbursement_amount",
+  "note": "Top 20 of 627 total disbursement records through Dec 31, 2025. Total disbursements: $4,150,630.03.",
+  "spending": [
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC", "amount": 481119.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-11-14" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC", "amount": 150000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-14" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "GRASSROOTS ANALYTICS",  "amount": 136205.33, "description": "FUNDRAISING", "category": "Fundraising", "date": "2025-09-03" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS",       "amount": 110000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-09-05" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC",  "amount": 110000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-07" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC",  "amount": 110000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-03" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS",       "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-09-11" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS",       "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-09-18" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS",       "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-08-28" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC",  "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-06" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC",  "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-01" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC",  "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-21" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC",  "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-17" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS, LLC",  "amount": 100000.00, "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-10-17" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "FDM CONNECTS LLC",      "amount": 92231.47,  "description": "DIRECT MAIL FUNDRAISING", "category": "Fundraising", "date": "2025-10-26" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS",       "amount": 75000.00,  "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-09-03" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS",       "amount": 75000.00,  "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-08-27" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "HELIX CAMPAIGNS",       "amount": 75000.00,  "description": "DIGITAL CONSULTING", "category": "Digital", "date": "2025-08-26" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "WORKERS PRODUCTIONS LLC","amount": 73000.00, "description": "VIDEO PRODUCTION", "category": "Production", "date": "2025-11-07" },
+    { "candidate_name": "Graham Platner", "party": "D", "recipient_name": "LC MEDIA, LLC",         "amount": 65000.00,  "description": "MEDIA BUY", "category": "Advertising", "date": "2025-10-14" }
+  ],
+  "by_category": [
+    { "category": "Digital", "total": 2186119.00, "note": "Primarily Helix Campaigns LLC — dominant vendor. Includes online fundraising, digital ads, email." },
+    { "category": "Fundraising", "total": 228436.80, "note": "Grassroots Analytics + FDM Connects. Direct mail and data infrastructure." },
+    { "category": "Production", "total": 73000.00, "note": "Workers Productions LLC. Video content including viral launch video." },
+    { "category": "Advertising", "total": 65000.00, "note": "LC Media LLC media buys." }
+  ],
+  "total_disbursements": 4150630.03
+}

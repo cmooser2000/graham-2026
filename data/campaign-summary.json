@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-04-07T00:00:00.000Z",
+  "data_source": "FEC.gov federal campaign finance filings",
+  "reporting_period": "Through December 31, 2025 (most recent FEC filing; Q1 2026 not yet filed)",
+  "note": "All figures are exact from FEC filings except where noted. Q1 2026 receipts (~$8M total per press reports) will appear in next FEC filing.",
+  "candidates": {
+    "Graham Platner": {
+      "committee_id": "C00916437",
+      "candidate_id": "S6ME00373",
+      "fec_url": "https://www.fec.gov/data/committee/C00916437/",
+      "party": "D",
+      "race": "Maine U.S. Senate 2026",
+      "office": "Senate",
+      "state": "ME",
+      "cash_on_hand": 3717277.65,
+      "total_receipts": 7867907.68,
+      "total_expenditures": 4150630.03,
+      "accrued_expenses": 0,
+      "individual_contributions": 7802682.12,
+      "itemized_contributions": 2321851.62,
+      "unitemized_contributions": 5480830.50,
+      "pac_contributions": 47050.00,
+      "outstanding_loans": 0,
+      "burn_rate": 0.527,
+      "committee_registered": "2025-08-18",
+      "treasurer": "Ben Martello",
+      "notes": "Raised $1M in first 9 days (avg donation $33, 98% under $100). Q4 2025 alone: $4.6M raised (avg $25.88, 99% under $200). ~$8M total through mid-March 2026 per press reports (unconfirmed in FEC).",
+      "fundraising_milestones": [
+        {
+          "amount": 1000000,
+          "date": "2025-08-28",
+          "note": "First $1M raised in 9 days",
+          "source": "https://mainemorningstar.com/2025/08/28/the-oysterman-trying-to-oust-susan-collins-raised-1-million-in-nine-days/"
+        },
+        {
+          "amount": 3200000,
+          "date": "2025-09-30",
+          "note": "Total through Q3 2025",
+          "source": "https://www.mainepublic.org/politics/2026-02-02/graham-platner-posts-4-6-million-in-fourth-quarter-fundraising-gov-janet-mills-2-7-million/"
+        },
+        {
+          "amount": 7867907.68,
+          "date": "2025-12-31",
+          "note": "Total through Dec 31, 2025 (exact FEC)",
+          "source": "https://www.fec.gov/data/committee/C00916437/"
+        }
+      ]
+    },
+    "Susan Collins": {
+      "committee_id": "C00314575",
+      "candidate_id": "S6ME00159",
+      "fec_url": "https://www.fec.gov/data/candidate/S6ME00159/",
+      "party": "R",
+      "race": "Maine U.S. Senate 2026",
+      "office": "Senate",
+      "state": "ME",
+      "cash_on_hand": 8039233.60,
+      "total_receipts": 10153541.96,
+      "total_expenditures": 3409500.84,
+      "accrued_expenses": 0,
+      "outstanding_loans": 0,
+      "burn_rate": 0.336,
+      "notes": "Incumbent. Q4 2025 receipts: $7,393,291.40. Senate Leadership Fund committed ~$42M in outside spending. Source: https://www.bangordailynews.com/2026/01/20/politics/elections/maine-susan-collins-election-2026-senate-leadership-fund/",
+      "outside_spending_committed": 42000000,
+      "outside_spending_source": "Senate Leadership Fund",
+      "outside_spending_url": "https://www.bangordailynews.com/2026/01/20/politics/elections/maine-susan-collins-election-2026-senate-leadership-fund/"
+    },
+    "Janet Mills": {
+      "committee_id": "C00923144",
+      "candidate_id": "S6ME00407",
+      "fec_url": "https://www.fec.gov/data/candidate/S6ME00407/",
+      "party": "D",
+      "race": "Maine U.S. Senate 2026",
+      "office": "Senate",
+      "state": "ME",
+      "cash_on_hand": 1310280.47,
+      "total_receipts": 2706691.86,
+      "total_expenditures": 1396411.39,
+      "accrued_expenses": 0,
+      "individual_contributions": 2539191.17,
+      "pac_contributions": 107500.00,
+      "outstanding_loans": 0,
+      "burn_rate": 0.516,
+      "committee_registered": "2025-10-14",
+      "notes": "Filed October 14, 2025. Q4 2025 only period available. Current Governor of Maine.",
+      "source": "https://www.fec.gov/data/committee/C00923144/"
+    }
+  }
+}
