@@ -23,18 +23,11 @@ const MAX_RETRIES = 3;
 const BASE_DELAY_MS = 2000; // 2s, 4s, 8s exponential backoff
 const BATCH_DELAY_MS = 3000; // delay between batches
 
-// Candidate search terms
+// Candidate search terms — Maine 2026 Senate race
 const CANDIDATE_SEARCH_TERMS: Record<string, string> = {
-  "Eric Swalwell": "Eric Swalwell",
-  "Antonio Villaraigosa": "Antonio Villaraigosa",
-  "Katie Porter": "Katie Porter",
-  "Tony Thurmond": "Tony Thurmond",
-  "Xavier Becerra": "Xavier Becerra",
-  "Tom Steyer": "Tom Steyer",
-  "Betty Yee": "Betty Yee",
-  "Chad Bianco": "Chad Bianco",
-  "Steve Hilton": "Steve Hilton",
-  "Matt Mahan": "Matt Mahan",
+  "Graham Platner": "Graham Platner",
+  "Susan Collins": "Susan Collins",
+  "Janet Mills": "Janet Mills",
 };
 
 interface TrendPoint {
@@ -259,17 +252,17 @@ function saveResults(
 
 async function main() {
   const dataPath = path.join(__dirname, "../../data/google-trends.json");
-  const geo = "US-CA";
+  const geo = "US-ME";
   const timeframe = "today 1-m";
 
-  console.log("Fetching Google Trends data for California Governor candidates...");
+  console.log("Fetching Google Trends data for Maine Senate candidates...");
   console.log(`Region: ${geo}, Timeframe: ${timeframe}`);
   console.log(`Retries: ${MAX_RETRIES}, Backoff: exponential from ${BASE_DELAY_MS}ms\n`);
 
   const allResults: Record<string, CandidateTrend> = {};
   const failedBatches: string[] = [];
   const terms = Object.entries(CANDIDATE_SEARCH_TERMS);
-  const baselineTerm = "Eric Swalwell";
+  const baselineTerm = "Graham Platner";
 
   // Split into batches of up to 5 (Google Trends limit)
   // Batch 1 includes the baseline; subsequent batches prepend the baseline for normalization

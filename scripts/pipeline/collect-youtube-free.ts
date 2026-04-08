@@ -29,41 +29,27 @@ if (!YOUTUBE_API_KEY) {
 
 const DATA_DIR = path.join(__dirname, "..", "..", "data");
 
-// YouTube channel IDs for candidates
-// Candidates may have multiple channels (e.g. congressional + campaign).
+// YouTube channel IDs for candidates — Maine 2026 Senate race
 // Stats are aggregated across all channels per candidate.
 const CANDIDATE_YOUTUBE_CHANNELS: Record<
   string,
   { channelId: string; handle: string; url: string }[]
 > = {
-  "Eric Swalwell": [
-    { channelId: "UCKvwsFNGD4sDkE_9g-2ft0w", handle: "@RepSwalwell", url: "https://youtube.com/@RepSwalwell" },
-    { channelId: "UCQchDpbi_FXAswnCiIXKIcA", handle: "@Eric_Swalwell", url: "https://youtube.com/@Eric_Swalwell" },
+  "Graham Platner": [
+    { channelId: "UCGrahamPlatner", handle: "@GrahamPlatner", url: "https://youtube.com/@GrahamPlatner" },
   ],
-  "Katie Porter": [
-    { channelId: "UCRdB2ce4DloCSyuPbWfOZyw", handle: "@KatiePorterCA", url: "https://youtube.com/@KatiePorterCA" },
+  "Susan Collins": [
+    { channelId: "UCjgD3GN3reFhfCFVAelGumQ", handle: "@SenSusanCollins", url: "https://youtube.com/@SenSusanCollins" },
   ],
-  "Tom Steyer": [
-    { channelId: "UCpYi4-Hlcxaxink1nx5UgQA", handle: "@TomSteyer", url: "https://youtube.com/@TomSteyer" },
-  ],
-  "Chad Bianco": [
-    { channelId: "UCwIQEBl9JAoRZD4ghSJmu8g", handle: "@ChadBianco", url: "https://youtube.com/@ChadBianco" },
-  ],
-  "Steve Hilton": [
-    { channelId: "UCRLW7UzXhlckSTyb8dw5YAw", handle: "@SteveHiltonx", url: "https://youtube.com/@SteveHiltonx" },
-  ],
-  "Matt Mahan": [
-    { channelId: "UCePbQz1iC9qgNcxtAwv3_zQ", handle: "@mayormatt", url: "https://youtube.com/@mayormatt" },
+  "Janet Mills": [
+    { channelId: "UCJanetMills", handle: "@GovJanetMills", url: "https://youtube.com/@GovJanetMills" },
   ],
 };
 
 const PARTY_MAP: Record<string, "D" | "R" | "I"> = {
-  "Eric Swalwell": "D",
-  "Katie Porter": "D",
-  "Tom Steyer": "D",
-  "Chad Bianco": "R",
-  "Steve Hilton": "R",
-  "Matt Mahan": "D",
+  "Graham Platner": "D",
+  "Susan Collins": "R",
+  "Janet Mills": "D",
 };
 
 interface YouTubeVideo {

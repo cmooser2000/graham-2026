@@ -11,20 +11,11 @@ import * as path from "path";
 
 const USER_AGENT = "GovAnalytics/1.0 (https://github.com/merinids/gov-analytics)";
 
-// Wikipedia article titles for each candidate
+// Wikipedia article titles for each candidate — Maine 2026 Senate race
 const CANDIDATE_ARTICLES: Record<string, string> = {
-  "Eric Swalwell": "Eric_Swalwell",
-  "Antonio Villaraigosa": "Antonio_Villaraigosa",
-  "Katie Porter": "Katie_Porter",
-  "Tony Thurmond": "Tony_Thurmond",
-  "Xavier Becerra": "Xavier_Becerra",
-  "Tom Steyer": "Tom_Steyer",
-  "Betty Yee": "Betty_Yee",
-  "Chad Bianco": "Chad_Bianco",
-  "Steve Hilton": "Steve_Hilton",
-  "Matt Mahan": "Matt_Mahan",
-  "Rick Caruso": "Rick_Caruso",
-  "Alex Padilla": "Alex_Padilla",
+  "Graham Platner": "Graham_Platner",
+  "Susan Collins": "Susan_Collins",
+  "Janet Mills": "Janet_Mills",
 };
 
 interface DailyView {
