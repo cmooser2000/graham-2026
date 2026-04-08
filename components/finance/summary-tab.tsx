@@ -149,8 +149,8 @@ export function SummaryTab({ candidateId, onSelectCandidate }: SummaryTabProps) 
     { key: "total_receipts", label: "Raised", format: (v) => formatCurrency(v as number), showBar: true },
     { key: "total_expenditures", label: "Spent", format: (v) => formatCurrency(v as number), showBar: true },
     { key: "burn_rate", label: "Burn %", format: (v) => formatPct(v as number), showBar: true },
-    { key: "unique_donors", label: "Donors", format: (v) => formatNumber(v as number), showBar: true },
-    { key: "avg_contribution", label: "Avg $", format: (v) => formatCurrency(v as number), showBar: true },
+    { key: "unique_donors", label: "Donors", format: (v) => num(v) > 0 ? formatNumber(v as number) : "—", showBar: true },
+    { key: "avg_contribution", label: "Avg $", format: (v) => num(v) > 0 ? formatCurrency(v as number) : "—", showBar: true },
     { key: "in_state_pct", label: "In-State", format: (v) => formatPct(v as number), showBar: true },
   ];
 
@@ -168,7 +168,7 @@ export function SummaryTab({ candidateId, onSelectCandidate }: SummaryTabProps) 
             )}
             color="yellow"
           />
-          {insights.mostDonors && (
+          {insights.mostDonors && num(insights.mostDonors.unique_donors) > 0 && (
             <InsightCard
               label="Most Donors"
               name={lastName(insights.mostDonors.name)}
@@ -337,7 +337,7 @@ export function SummaryTab({ candidateId, onSelectCandidate }: SummaryTabProps) 
       <div className="flex items-center gap-4 text-[9px] text-terminal-muted px-1">
         <span>
           <span className="inline-block w-2 h-2 rounded-sm bg-terminal-yellow/30 mr-1 align-middle" />
-          Swalwell
+          Platner
         </span>
         <span>
           <span className="inline-block w-2 h-2 rounded-sm bg-terminal-blue/20 mr-1 align-middle" />

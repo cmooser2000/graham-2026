@@ -63,7 +63,7 @@ export function FinanceView() {
         setKpis([
           { label: "TOTAL RAISED", value: fmtMoney(totalRaised), color: "yellow", sub: `${rows.length} candidates` },
           { label: "TOTAL SPENT", value: fmtMoney(totalSpent), color: "red", sub: `${Math.round((totalSpent / totalRaised) * 100) || 0}% burn` },
-          { label: "DONORS", value: totalDonors.toLocaleString(), color: "cyan" },
+          { label: "DONORS", value: totalDonors > 0 ? totalDonors.toLocaleString() : "N/A", color: "cyan", sub: totalDonors === 0 ? "not in FEC filing" : undefined },
           { label: "TOP COH", value: fmtMoney(topCOH.val), color: "green", sub: topCOH.name },
         ]);
       })

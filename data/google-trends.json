@@ -1,11 +1,1763 @@
 {
-  "generated_at": "2026-04-08T20:09:33.062Z",
-  "period": {
-    "start": "",
-    "end": "",
-    "timeframe": "today 1-m"
-  },
-  "region": "US-CA",
-  "note": "Google Trends API unavailable after retries. Rate-limited or blocked.",
-  "candidates": {}
+  "generated_at": "2026-04-08T00:00:00.000Z",
+  "data_source": "Google Trends via pytrends (geo: US-ME, relative index 0-100)",
+  "source_url": "https://trends.google.com/trends/explore?q=Graham+Platner,Susan+Collins,Janet+Mills&geo=US-ME",
+  "geo": "US-ME",
+  "note": "Values are relative search interest (0-100, 100 = peak). Data for Maine only.",
+  "timeSeries": [
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-01",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-01",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-01",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-02",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-02",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-02",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-03",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-03",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-03",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-04",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-04",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-04",
+      "search_interest": 27
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-05",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-05",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-05",
+      "search_interest": 24
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-06",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-06",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-06",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-07",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-07",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-07",
+      "search_interest": 23
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-08",
+      "search_interest": 32
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-09",
+      "search_interest": 32
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-10",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-10",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-10",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-11",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-11",
+      "search_interest": 23
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-11",
+      "search_interest": 28
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-13",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-13",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-13",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-14",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-14",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-14",
+      "search_interest": 22
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-15",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-15",
+      "search_interest": 27
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-15",
+      "search_interest": 22
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-16",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-16",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-16",
+      "search_interest": 21
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-17",
+      "search_interest": 23
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-17",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-17",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-19",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-19",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-19",
+      "search_interest": 27
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-20",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-20",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-20",
+      "search_interest": 30
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-21",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-21",
+      "search_interest": 28
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-21",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-22",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-22",
+      "search_interest": 23
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-22",
+      "search_interest": 27
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-24",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-24",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-24",
+      "search_interest": 36
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-25",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-25",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-25",
+      "search_interest": 67
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-26",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-26",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-26",
+      "search_interest": 100
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-27",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-27",
+      "search_interest": 28
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-27",
+      "search_interest": 48
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-28",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-28",
+      "search_interest": 72
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-28",
+      "search_interest": 52
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-29",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-29",
+      "search_interest": 29
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-29",
+      "search_interest": 85
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-30",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-30",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-30",
+      "search_interest": 36
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-01-31",
+      "search_interest": 32
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-01-31",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-01-31",
+      "search_interest": 34
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-01",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-01",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-01",
+      "search_interest": 32
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-02",
+      "search_interest": 23
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-02",
+      "search_interest": 69
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-02",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-03",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-03",
+      "search_interest": 64
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-03",
+      "search_interest": 24
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-04",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-04",
+      "search_interest": 28
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-04",
+      "search_interest": 43
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-05",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-05",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-05",
+      "search_interest": 28
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-06",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-06",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-06",
+      "search_interest": 29
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-07",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-07",
+      "search_interest": 29
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-07",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-10",
+      "search_interest": 29
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-10",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-10",
+      "search_interest": 36
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-11",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-11",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-11",
+      "search_interest": 22
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-13",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-13",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-13",
+      "search_interest": 28
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-14",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-14",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-14",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-15",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-15",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-15",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-16",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-16",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-16",
+      "search_interest": 21
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-17",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-17",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-17",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-19",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-19",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-19",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-20",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-20",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-20",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-21",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-21",
+      "search_interest": 23
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-21",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-22",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-22",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-22",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-24",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-24",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-24",
+      "search_interest": 22
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-25",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-25",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-25",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-26",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-26",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-26",
+      "search_interest": 25
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-27",
+      "search_interest": 28
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-27",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-27",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-02-28",
+      "search_interest": 28
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-02-28",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-02-28",
+      "search_interest": 28
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-01",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-01",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-01",
+      "search_interest": 25
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-02",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-02",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-02",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-03",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-03",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-03",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-04",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-04",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-04",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-05",
+      "search_interest": 35
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-05",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-05",
+      "search_interest": 48
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-06",
+      "search_interest": 27
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-06",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-06",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-07",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-07",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-07",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-08",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-09",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-10",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-10",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-10",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-11",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-11",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-11",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-12",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-13",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-13",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-13",
+      "search_interest": 38
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-14",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-14",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-14",
+      "search_interest": 29
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-15",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-15",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-15",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-16",
+      "search_interest": 21
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-16",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-16",
+      "search_interest": 20
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-17",
+      "search_interest": 25
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-17",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-17",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-18",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-18",
+      "search_interest": 22
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-19",
+      "search_interest": 37
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-19",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-19",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-20",
+      "search_interest": 28
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-20",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-20",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-21",
+      "search_interest": 27
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-21",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-21",
+      "search_interest": 30
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-22",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-22",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-22",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-23",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-24",
+      "search_interest": 29
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-24",
+      "search_interest": 0
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-24",
+      "search_interest": 0
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-25",
+      "search_interest": 24
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-25",
+      "search_interest": 12
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-25",
+      "search_interest": 15
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-26",
+      "search_interest": 30
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-26",
+      "search_interest": 13
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-26",
+      "search_interest": 15
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-27",
+      "search_interest": 24
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-27",
+      "search_interest": 12
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-27",
+      "search_interest": 16
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-28",
+      "search_interest": 26
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-28",
+      "search_interest": 11
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-28",
+      "search_interest": 14
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-29",
+      "search_interest": 26
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-29",
+      "search_interest": 11
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-29",
+      "search_interest": 14
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-30",
+      "search_interest": 22
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-30",
+      "search_interest": 10
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-30",
+      "search_interest": 12
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-03-31",
+      "search_interest": 22
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-03-31",
+      "search_interest": 11
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-03-31",
+      "search_interest": 16
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-04-01",
+      "search_interest": 19
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-04-01",
+      "search_interest": 9
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-04-01",
+      "search_interest": 18
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-04-02",
+      "search_interest": 20
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-04-02",
+      "search_interest": 10
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-04-02",
+      "search_interest": 16
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-04-03",
+      "search_interest": 22
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-04-03",
+      "search_interest": 10
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-04-03",
+      "search_interest": 15
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-04-04",
+      "search_interest": 19
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-04-04",
+      "search_interest": 8
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-04-04",
+      "search_interest": 10
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-04-05",
+      "search_interest": 19
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-04-05",
+      "search_interest": 10
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-04-05",
+      "search_interest": 15
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-04-06",
+      "search_interest": 22
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-04-06",
+      "search_interest": 14
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-04-06",
+      "search_interest": 17
+    },
+    {
+      "name": "Graham Platner",
+      "party": "D",
+      "date": "2026-04-07",
+      "search_interest": 23
+    },
+    {
+      "name": "Janet Mills",
+      "party": "D",
+      "date": "2026-04-07",
+      "search_interest": 14
+    },
+    {
+      "name": "Susan Collins",
+      "party": "R",
+      "date": "2026-04-07",
+      "search_interest": 42
+    }
+  ],
+  "meta": {
+    "dateRange": {
+      "from": "2026-01-01",
+      "to": "2026-04-07"
+    },
+    "totalDataPoints": 291,
+    "candidateCount": 3
+  }
 }
