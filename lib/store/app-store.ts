@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export type ViewId = "markets" | "finance" | "internet" | "operations" | "queries";
+export type ViewId = "markets" | "finance" | "internet" | "operations" | "queries" | "field";
 
 interface AppState {
   activeView: ViewId;
