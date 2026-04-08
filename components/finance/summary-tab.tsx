@@ -149,8 +149,8 @@ export function SummaryTab({ candidateId, onSelectCandidate }: SummaryTabProps) 
     { key: "total_receipts", label: "Raised", format: (v) => formatCurrency(v as number), showBar: true },
     { key: "total_expenditures", label: "Spent", format: (v) => formatCurrency(v as number), showBar: true },
     { key: "burn_rate", label: "Burn %", format: (v) => formatPct(v as number), showBar: true },
-    { key: "unique_donors", label: "Donors", format: (v) => num(v) > 0 ? formatNumber(v as number) : "—", showBar: true },
-    { key: "avg_contribution", label: "Avg $", format: (v) => num(v) > 0 ? formatCurrency(v as number) : "—", showBar: true },
+    { key: "unique_donors", label: "Donors", format: (v) => num(v as number) > 0 ? formatNumber(v as number) : "—", showBar: true },
+    { key: "avg_contribution", label: "Avg $", format: (v) => num(v as number) > 0 ? formatCurrency(v as number) : "—", showBar: true },
     { key: "in_state_pct", label: "In-State", format: (v) => formatPct(v as number), showBar: true },
   ];
 

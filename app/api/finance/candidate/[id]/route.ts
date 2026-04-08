@@ -137,7 +137,7 @@ export async function GET(
     } : null,
     late_by_state: financeData
       ? Object.entries(financeData.by_state || {}).map(([state, amount]) => ({
-          candidate_name: name, state, amount,
+          candidate_name: name, state, amount: amount as number,
         })).sort((a, b) => b.amount - a.amount)
       : [],
     late_by_occupation: [],
