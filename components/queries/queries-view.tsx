@@ -47,66 +47,27 @@ export function QueriesView() {
         body: JSON.stringify({ question }),
       });
 
-      const reader = res.body?.getReader();
-      if (!reader) {
-        const entry: QueryEntry = { ...initial, error: "No response stream" };
+      const data = await res.json();
+      setLoading(false);
+
+      if (data.error) {
+        const entry: QueryEntry = { ...initial, error: data.error };
         setCurrent(entry);
         setHistory(h => [entry, ...h]);
-        setLoading(false);
         return;
       }
 
-      const decoder = new TextDecoder();
-      let buffer = "";
-      let entry: QueryEntry = { ...initial };
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        buffer += decoder.decode(value, { stream: true });
-        const lines = buffer.split("\n");
-        buffer = lines.pop() || "";
-
-        for (const line of lines) {
-          if (!line.startsWith("data: ")) continue;
-          const jsonStr = line.slice(6);
-          if (!jsonStr) continue;
-
-          try {
-            const evt = JSON.parse(jsonStr);
-
-            if (evt.type === "data") {
-              entry = {
-                ...entry,
-                question: evt.question,
-                sql: evt.sql,
-                columns: evt.columns,
-                rows: evt.rows,
-                rowCount: evt.rowCount,
-              };
-              setCurrent({ ...entry });
-              setLoading(false);
-              setStreaming(true);
-            } else if (evt.type === "text") {
-              narrativeRef.current += evt.content;
-              entry = { ...entry, narrative: narrativeRef.current };
-              setCurrent({ ...entry });
-            } else if (evt.type === "done") {
-              setStreaming(false);
-              setHistory(h => [entry, ...h]);
-            } else if (evt.type === "error") {
-              entry = { ...entry, error: evt.error, sql: evt.sql || entry.sql };
-              setCurrent({ ...entry });
-              setHistory(h => [entry, ...h]);
-              setLoading(false);
-              setStreaming(false);
-            }
-          } catch {
-            // skip malformed JSON
-          }
-        }
-      }
+      const entry: QueryEntry = {
+        ...initial,
+        question: data.question || question,
+        narrative: data.answer || "",
+        sql: data.source || "",
+        columns: [],
+        rows: [],
+        rowCount: 0,
+      };
+      setCurrent(entry);
+      setHistory(h => [entry, ...h]);
     } catch {
       const entry: QueryEntry = { ...initial, error: "Request failed" };
       setCurrent(entry);
