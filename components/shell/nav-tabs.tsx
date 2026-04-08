@@ -1,15 +1,14 @@
 "use client";
 
-import { TrendingUp, DollarSign, Globe, Settings, Search, Users } from "lucide-react";
+import { TrendingUp, DollarSign, Globe, Settings, MapPin } from "lucide-react";
 import { useAppStore, ViewId } from "@/lib/store/app-store";
 
 const TABS: { id: ViewId; label: string; icon: typeof TrendingUp }[] = [
   { id: "markets", label: "Markets", icon: TrendingUp },
   { id: "finance", label: "Finance", icon: DollarSign },
   { id: "internet", label: "Internet", icon: Globe },
-  { id: "field", label: "Field", icon: Users },
   { id: "operations", label: "Ops", icon: Settings },
-  { id: "queries", label: "Queries", icon: Search },
+  { id: "field", label: "Turf Data", icon: MapPin },
 ];
 
 export function NavTabs() {
