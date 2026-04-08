@@ -1,51 +1,41 @@
-import { query } from "@/lib/db";
 import { NextResponse, NextRequest } from "next/server";
+import { readFileSync } from "fs";
+import { join } from "path";
+
+function loadGeoDetailFromJson(candidateName?: string) {
+  try {
+    const filePath = join(process.cwd(), "data", "campaign-geography.json");
+    const raw = readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw);
+
+    let states: unknown[] = data.geography || [];
+    if (candidateName) {
+      states = states.filter((r: unknown) => (r as Record<string, unknown>).candidate_name === candidateName);
+    }
+
+    // Sort by amount desc
+    states = [...states].sort((a, b) =>
+      ((b as Record<string, unknown>).total as number) - ((a as Record<string, unknown>).total as number)
+    );
+
+    return { regions: [], cities: [], states };
+  } catch {
+    return { regions: [], cities: [], states: [] };
+  }
+}
 
 export async function GET(req: NextRequest) {
   const candidateId = req.nextUrl.searchParams.get("candidate_id");
-  const params: unknown[] = [];
-  let rWhere = "";
-  let cWhere = "";
-  let sWhere = "";
 
+  let candidateName: string | undefined;
   if (candidateId) {
-    rWhere = " WHERE gr.candidate_id = $1";
-    cWhere = " WHERE gc.candidate_id = $1";
-    sWhere = " WHERE gs.candidate_id = $1";
-    params.push(candidateId);
+    try {
+      const summaryPath = join(process.cwd(), "data", "campaign-summary.json");
+      const summary = JSON.parse(readFileSync(summaryPath, "utf-8"));
+      const names = Object.keys(summary.candidates);
+      candidateName = names[parseInt(candidateId) - 1];
+    } catch { /* ignore */ }
   }
 
-  const [regions, cities, states] = await Promise.all([
-    query(
-      `SELECT c.name, c.party, gr.*
-       FROM geography_by_region gr
-       JOIN candidates c ON c.id = gr.candidate_id
-       ${rWhere}
-       ORDER BY gr.amount DESC`,
-      params
-    ),
-    query(
-      `SELECT c.name AS candidate_name, c.party, gc.*
-       FROM geography_top_cities gc
-       JOIN candidates c ON c.id = gc.candidate_id
-       ${cWhere}
-       ORDER BY gc.amount DESC
-       LIMIT 50`,
-      params
-    ),
-    query(
-      `SELECT c.name AS candidate_name, c.party, gs.*
-       FROM geography_top_states gs
-       JOIN candidates c ON c.id = gs.candidate_id
-       ${sWhere}
-       ORDER BY gs.amount DESC`,
-      params
-    ),
-  ]);
-
-  return NextResponse.json({
-    regions: regions.rows,
-    cities: cities.rows,
-    states: states.rows,
-  });
+  return NextResponse.json(loadGeoDetailFromJson(candidateName));
 }

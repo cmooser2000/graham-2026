@@ -1,75 +1,29 @@
-name: Update Campaign Finance (Cal Access)
+name: Update Campaign Finance (Maine FEC)
+# DISABLED — This workflow previously pulled California CAL-ACCESS data.
+# Finance data for Maine 2026 Senate race is sourced directly from FEC.gov
+# and stored in data/ JSON files. To refresh, run the FEC API scripts manually.
+#
+# on:
+#   schedule:
+#     - cron: '0 7 * * *'
+#   workflow_dispatch: {}
 
 on:
-  schedule:
-    # Daily at 11 PM Pacific (7 AM UTC next day)
-    - cron: '0 7 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type ENABLE to manually trigger (disabled by default)'
+        required: true
 
 permissions:
   contents: write
 
-concurrency:
-  group: data-commit
-  cancel-in-progress: false
-
 jobs:
-  pull-calaccess:
+  disabled:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Node dependencies
-        run: npm install tsx pg --save-dev
-
-      - name: Pull and process Cal Access data
-        run: python3 scripts/pipeline/process-calaccess.py
-
-      - name: Scrape polling data
-        continue-on-error: true
-        run: python3 scripts/pipeline/fetch-polls.py
-
-      - name: Generate intel analysis
-        run: npx tsx scripts/pipeline/update-intel.ts
-
-      - name: Commit finance data
+      - name: Workflow disabled
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/campaign-*.json data/intel-analysis.json data/intel-narrative.md data/independent-expenditures.json data/polls.json
-          if git diff --cached --quiet; then
-            echo "No finance data changes"
-          else
-            git commit -m "data: Cal Access finance pull $(date -u +%Y-%m-%d)"
-            git stash --include-untracked
-            git pull --rebase origin main
-            git stash pop || true
-            git push
-          fi
-
-      - name: Apply schema to Neon database
-        if: env.DATABASE_URL != ''
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-        run: npx tsx -e "const{Client}=require('pg');const{readFileSync}=require('fs');(async()=>{const c=new Client({connectionString:process.env.DATABASE_URL,ssl:{rejectUnauthorized:false}});await c.connect();await c.query(readFileSync('scripts/schema.sql','utf-8'));console.log('Schema applied');await c.end();})()"
-
-      - name: Import to Neon database
-        if: env.DATABASE_URL != ''
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-        run: npx tsx scripts/pipeline/import-to-neon.ts
+          echo "This workflow is disabled. Finance data comes from FEC.gov JSON files."
+          echo "See data/campaign-*.json for Maine 2026 Senate race data."
+          exit 0

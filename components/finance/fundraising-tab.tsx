@@ -26,13 +26,8 @@ interface FundraisingTabProps {
 
 const CANDIDATE_COLORS: Record<string, string> = {
   "Graham Platner": "#FFD700",
-  "Katie Porter": "#ff6b6b",
-  "Tony Thurmond": "#51cf66",
-  "Janet Mills": "#4488FF",
-  "Betty Yee": "#22b8cf",
   "Susan Collins": "#ff4444",
-  "Matt Mahan": "#74b9ff",
-  "Rick Caruso": "#f9ca24",
+  "Janet Mills": "#4488FF",
 };
 
 const SIZE_BUCKETS = ["small", "medium", "large", "major"] as const;

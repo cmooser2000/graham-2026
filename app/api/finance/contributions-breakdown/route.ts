@@ -1,37 +1,53 @@
-import { query } from "@/lib/db";
 import { NextResponse, NextRequest } from "next/server";
+import { readFileSync } from "fs";
+import { join } from "path";
+
+function loadBreakdownFromJson(candidateName?: string) {
+  try {
+    const filePath = join(process.cwd(), "data", "campaign-contributions.json");
+    const raw = readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw);
+
+    const candidates = candidateName
+      ? Object.entries(data.candidates || {}).filter(([n]) => n === candidateName)
+      : Object.entries(data.candidates || {});
+
+    const bySize: unknown[] = [];
+    const byType: unknown[] = [];
+
+    for (const [name, c] of candidates) {
+      const cand = c as Record<string, unknown>;
+      const sizeMap = (cand.by_size ?? {}) as Record<string, number>;
+      const sizeCountMap = (cand.by_size_count ?? {}) as Record<string, number>;
+      const typeMap = (cand.by_type ?? {}) as Record<string, number>;
+      const typeCountMap = (cand.by_type_count ?? {}) as Record<string, number>;
+
+      for (const [bucket, amount] of Object.entries(sizeMap)) {
+        bySize.push({ name, party: cand.party, size_bucket: bucket, amount, count: sizeCountMap[bucket] ?? 0 });
+      }
+      for (const [type, amount] of Object.entries(typeMap)) {
+        byType.push({ name, party: cand.party, contributor_type: type, amount, count: typeCountMap[type] ?? 0 });
+      }
+    }
+
+    return { by_size: bySize, by_type: byType };
+  } catch {
+    return { by_size: [], by_type: [] };
+  }
+}
 
 export async function GET(req: NextRequest) {
   const candidateId = req.nextUrl.searchParams.get("candidate_id");
-  const params: unknown[] = [];
-  let where = "";
 
+  let candidateName: string | undefined;
   if (candidateId) {
-    where = " WHERE bs.candidate_id = $1";
-    params.push(candidateId);
+    try {
+      const summaryPath = join(process.cwd(), "data", "campaign-summary.json");
+      const summary = JSON.parse(readFileSync(summaryPath, "utf-8"));
+      const names = Object.keys(summary.candidates);
+      candidateName = names[parseInt(candidateId) - 1];
+    } catch { /* ignore */ }
   }
 
-  const [bySize, byType] = await Promise.all([
-    query(
-      `SELECT c.name, c.party, bs.*
-       FROM contributions_by_size bs
-       JOIN candidates c ON c.id = bs.candidate_id
-       ${where}
-       ORDER BY c.name, bs.amount DESC`,
-      params
-    ),
-    query(
-      `SELECT c.name, c.party, bt.*
-       FROM contributions_by_type bt
-       JOIN candidates c ON c.id = bt.candidate_id
-       ${where.replace("bs.", "bt.")}
-       ORDER BY c.name, bt.amount DESC`,
-      params
-    ),
-  ]);
-
-  return NextResponse.json({
-    by_size: bySize.rows,
-    by_type: byType.rows,
-  });
+  return NextResponse.json(loadBreakdownFromJson(candidateName));
 }
