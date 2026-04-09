@@ -127,7 +127,7 @@ export function TrendsChart() {
   return (
     <div className="p-3">
       <div className="flex items-center justify-between mb-3">
-        <h3 className="text-terminal-base text-terminal-blue font-semibold tracking-widest uppercase">Search Rankings (CA)</h3>
+        <h3 className="text-terminal-base text-terminal-blue font-semibold tracking-widest uppercase">Search Rankings (ME)</h3>
         <span className="text-terminal-sm text-terminal-dim">
           {data.meta.lastDataDate
             ? `as of ${formatDate(data.meta.lastDataDate)}`
