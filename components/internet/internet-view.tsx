@@ -42,17 +42,25 @@ export function InternetView() {
       items.push({ label: "PRIMARY", value: `${days}d`, color: days <= 30 ? "red" : "yellow", sub: "Jun 9, 2026" });
 
       if (yt?.channels?.length) {
-        const totalSubs = yt.channels.reduce((s: number, c: { subscribers: number }) => s + (c.subscribers || 0), 0);
-        const totalVids = yt.videos?.length ?? 0;
-        items.push(
-          { label: "YT SUBS", value: fmtCount(totalSubs), color: "red", sub: `${yt.channels.length} candidates` },
-        );
+        const hasSubData = yt.channels.some((c: { subscribers: number | null }) => c.subscribers != null);
+        const totalSubs = hasSubData
+          ? yt.channels.reduce((s: number, c: { subscribers: number | null }) => s + (c.subscribers || 0), 0)
+          : null;
+        items.push({
+          label: "YT SUBS",
+          value: totalSubs != null ? fmtCount(totalSubs) : "N/A",
+          color: "red",
+          sub: `${yt.channels.length} candidates`,
+        });
       }
 
       if (followers?.candidates?.length) {
         const platner = followers.candidates.find((c: { name: string }) => c.name.toLowerCase().includes("platner"));
         if (platner) {
-          items.push({ label: "PLATNER YT", value: fmtCount(platner.subscribers), color: "yellow", sub: platner.handle });
+          const subVal = platner.subscribers != null && platner.subscribers > 0
+            ? fmtCount(platner.subscribers)
+            : "N/A";
+          items.push({ label: "PLATNER YT", value: subVal, color: "yellow", sub: platner.handle });
         }
       }
 
