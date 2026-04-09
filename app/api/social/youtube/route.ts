@@ -5,14 +5,17 @@ import { join } from "path";
 const RSS_BASE = "https://www.youtube.com/feeds/videos.xml?channel_id=";
 
 interface RssVideo {
-  id: string;
+  video_id: string;
   url: string;
   title: string;
-  publishedAt: string;
+  published_at: string;
   thumbnail: string;
   channelId: string;
   candidate_name: string;
   party: string;
+  views: number;
+  likes: number;
+  comments: number;
 }
 
 async function fetchChannelRss(
@@ -35,14 +38,17 @@ async function fetchChannelRss(
       const title = (entry.match(/<title>(.*?)<\/title>/) || [])[1] || "";
       const published = (entry.match(/<published>(.*?)<\/published>/) || [])[1] || "";
       return {
-        id: videoId,
+        video_id: videoId,
         url: `https://www.youtube.com/watch?v=${videoId}`,
         title: title.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"'),
-        publishedAt: published,
+        published_at: published,
         thumbnail: `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
         channelId,
         candidate_name: candidateName,
         party,
+        views: 0,
+        likes: 0,
+        comments: 0,
       };
     });
   } catch {
@@ -67,7 +73,7 @@ export async function GET() {
     );
 
     const videos: RssVideo[] = videoArrays.flat().sort(
-      (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+      (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
     );
 
     // Build channel summary rows
