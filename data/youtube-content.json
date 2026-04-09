@@ -1,34 +1,31 @@
 {
-  "generated_at": "2026-04-07T00:00:00.000Z",
-  "data_source": "YouTube Data API / manual research",
-  "note": "Platner campaign confirmed on YouTube (@grahamformaine per Ballotpedia) but subscriber count and video list not yet collected. Collins has official Senate YouTube channel.",
+  "generated_at": "2026-04-08T00:00:00.000Z",
+  "data_source": "YouTube RSS feeds (no API key required)",
   "channels": [
     {
       "candidate": "Graham Platner",
       "party": "D",
       "channelInfo": {
+        "channelId": "UCa_t4_O0On6PXNdXPciiyVw",
         "handle": "@grahamformaine",
-        "url": "https://youtube.com/@grahamformaine"
+        "url": "https://www.youtube.com/@grahamformaine"
       },
       "channelStats": {
         "subscribers": null,
-        "totalVideos": null,
-        "note": "Subscriber count not yet collected. Launch video reportedly received 2.5M views in 24 hours (Aug 19, 2025).",
-        "launch_video_note": "Estimated based on Maine Morning Star reporting",
-        "launch_video_source": "https://mainemorningstar.com/2025/08/28/the-oysterman-trying-to-oust-susan-collins-raised-1-million-in-nine-days/"
+        "totalVideos": null
       }
     },
     {
       "candidate": "Susan Collins",
       "party": "R",
       "channelInfo": {
+        "channelId": "UCfckAbdnDdhSPwX-0lfK9uw",
         "handle": "@SenatorSusanCollins",
-        "url": "https://www.youtube.com/@SenatorSusanCollins"
+        "url": "https://www.youtube.com/channel/UCfckAbdnDdhSPwX-0lfK9uw"
       },
       "channelStats": {
         "subscribers": null,
-        "totalVideos": null,
-        "note": "Official Senate channel. Subscriber count not yet collected."
+        "totalVideos": null
       }
     }
   ],
