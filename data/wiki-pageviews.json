@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T02:49:13.067Z",
+  "generated_at": "2026-04-13T08:06:48.534Z",
   "period": {
     "start": "2026-01-13",
     "end": "2026-04-12"
@@ -364,10 +364,14 @@
         {
           "date": "2026-04-11",
           "views": 2716
+        },
+        {
+          "date": "2026-04-12",
+          "views": 2603
         }
       ],
-      "total": 263690,
-      "average": 2963
+      "total": 266293,
+      "average": 2959
     },
     "Susan Collins": {
       "article": "Susan_Collins",
