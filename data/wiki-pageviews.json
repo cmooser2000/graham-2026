@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T02:38:50.361Z",
+  "generated_at": "2026-04-15T07:49:29.945Z",
   "period": {
     "start": "2026-01-15",
     "end": "2026-04-14"
@@ -364,10 +364,14 @@
         {
           "date": "2026-04-13",
           "views": 2370
+        },
+        {
+          "date": "2026-04-14",
+          "views": 2391
         }
       ],
-      "total": 265241,
-      "average": 2980
+      "total": 267632,
+      "average": 2974
     },
     "Susan Collins": {
       "article": "Susan_Collins",
@@ -1096,10 +1100,14 @@
         {
           "date": "2026-04-13",
           "views": 647
+        },
+        {
+          "date": "2026-04-14",
+          "views": 623
         }
       ],
-      "total": 99481,
-      "average": 1118
+      "total": 100104,
+      "average": 1112
     }
   }
 }
