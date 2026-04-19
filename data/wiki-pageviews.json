@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-04-18T18:54:35.407Z",
+  "generated_at": "2026-04-19T02:48:57.373Z",
   "period": {
-    "start": "2026-01-18",
-    "end": "2026-04-17"
+    "start": "2026-01-19",
+    "end": "2026-04-18"
   },
   "candidates": {
     "Graham Platner": {
       "article": "Graham_Platner",
       "url": "https://en.wikipedia.org/wiki/Graham_Platner",
       "daily": [
-        {
-          "date": "2026-01-18",
-          "views": 1194
-        },
         {
           "date": "2026-01-19",
           "views": 1043
@@ -366,17 +362,13 @@
           "views": 3235
         }
       ],
-      "total": 269627,
-      "average": 3030
+      "total": 268433,
+      "average": 3050
     },
     "Susan Collins": {
       "article": "Susan_Collins",
       "url": "https://en.wikipedia.org/wiki/Susan_Collins",
       "daily": [
-        {
-          "date": "2026-01-18",
-          "views": 1089
-        },
         {
           "date": "2026-01-19",
           "views": 992
@@ -730,17 +722,13 @@
           "views": 1251
         }
       ],
-      "total": 169679,
-      "average": 1907
+      "total": 168590,
+      "average": 1916
     },
     "Janet Mills": {
       "article": "Janet_Mills",
       "url": "https://en.wikipedia.org/wiki/Janet_Mills",
       "daily": [
-        {
-          "date": "2026-01-18",
-          "views": 818
-        },
         {
           "date": "2026-01-19",
           "views": 645
@@ -1094,8 +1082,8 @@
           "views": 736
         }
       ],
-      "total": 98009,
-      "average": 1101
+      "total": 97191,
+      "average": 1104
     }
   }
 }
