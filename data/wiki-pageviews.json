@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T08:06:24.552Z",
+  "generated_at": "2026-04-24T13:26:48.301Z",
   "period": {
     "start": "2026-01-24",
     "end": "2026-04-23"
@@ -732,10 +732,14 @@
         {
           "date": "2026-04-22",
           "views": 1414
+        },
+        {
+          "date": "2026-04-23",
+          "views": 1310
         }
       ],
-      "total": 170157,
-      "average": 1912
+      "total": 171467,
+      "average": 1905
     },
     "Janet Mills": {
       "article": "Janet_Mills",
