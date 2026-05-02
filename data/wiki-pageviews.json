@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T07:46:33.124Z",
+  "generated_at": "2026-05-02T13:15:11.341Z",
   "period": {
     "start": "2026-02-01",
     "end": "2026-05-01"
@@ -11,15 +11,15 @@
       "daily": [
         {
           "date": "2026-02-01",
-          "views": 5860
+          "views": 5849
         },
         {
           "date": "2026-02-02",
-          "views": 2760
+          "views": 2750
         },
         {
           "date": "2026-02-03",
-          "views": 1856
+          "views": 1846
         },
         {
           "date": "2026-02-04",
@@ -370,8 +370,8 @@
           "views": 71337
         }
       ],
-      "total": 427455,
-      "average": 4750
+      "total": 427424,
+      "average": 4749
     },
     "Susan Collins": {
       "article": "Susan_Collins",
@@ -379,15 +379,15 @@
       "daily": [
         {
           "date": "2026-02-01",
-          "views": 3550
+          "views": 3542
         },
         {
           "date": "2026-02-02",
-          "views": 2268
+          "views": 2257
         },
         {
           "date": "2026-02-03",
-          "views": 2613
+          "views": 2601
         },
         {
           "date": "2026-02-04",
@@ -738,8 +738,8 @@
           "views": 12736
         }
       ],
-      "total": 178887,
-      "average": 1988
+      "total": 178856,
+      "average": 1987
     },
     "Janet Mills": {
       "article": "Janet_Mills",
@@ -747,15 +747,15 @@
       "daily": [
         {
           "date": "2026-02-01",
-          "views": 2191
+          "views": 2179
         },
         {
           "date": "2026-02-02",
-          "views": 2018
+          "views": 2008
         },
         {
           "date": "2026-02-03",
-          "views": 2980
+          "views": 2973
         },
         {
           "date": "2026-02-04",
@@ -1106,7 +1106,7 @@
           "views": 10056
         }
       ],
-      "total": 123116,
+      "total": 123087,
       "average": 1368
     }
   }
