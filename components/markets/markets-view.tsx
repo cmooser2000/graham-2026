@@ -50,8 +50,8 @@ export function MarketsView() {
     const leader = kalshiCands[0];
 
     marketKpis.push(
-      { label: "WIN PRIMARY", value: markets.weighted_average_odds !== null ? `${markets.weighted_average_odds}%` : "--", color: "yellow", sub: "Platner weighted avg" },
-      { label: "TOP 2", value: markets.average_top2 !== null ? `${markets.average_top2}%` : "--", color: "cyan", sub: "Harville model" },
+      { label: "WIN D PRIMARY", value: markets.weighted_average_odds !== null ? `${markets.weighted_average_odds}%` : "--", color: "yellow", sub: "Platner weighted avg" },
+      { label: "TOP 2 (PRIMARY)", value: markets.average_top2 !== null ? `${markets.average_top2}%` : "--", color: "cyan", sub: "Harville model" },
       { label: "VOLUME", value: fmtVol, color: "dim", sub: "Kalshi + Polymarket" },
       { label: "CANDIDATES", value: `${fieldSize}`, color: "dim", sub: leader ? `Lead: ${leader.name.split(" ").pop()}` : "" },
     );
@@ -69,6 +69,17 @@ export function MarketsView() {
           <MarketCard market={markets.markets.polymarket} />
         </div>
       )}
+
+      {/* General Election Market Notice */}
+      <div className="bg-terminal-raised border border-terminal-yellow/20 rounded px-3 py-2.5 flex items-start gap-2">
+        <span className="text-terminal-yellow text-terminal-sm shrink-0">⚡</span>
+        <div className="flex flex-col gap-0.5">
+          <span className="text-terminal-sm text-terminal-yellow font-semibold tracking-wider">GENERAL ELECTION MARKETS NOT LIVE YET</span>
+          <span className="text-terminal-xs text-terminal-dim leading-relaxed">
+            Kalshi and Polymarket do not yet have a Platner vs. Collins (Nov 2026) market. Platforms typically open general election markets after the primary. Maine primary is <span className="text-foreground">June 9, 2026</span> — expect general markets by June/July. Showing D primary nomination odds below.
+          </span>
+        </div>
+      </div>
 
       {/* Odds Leaderboard */}
       {markets && (

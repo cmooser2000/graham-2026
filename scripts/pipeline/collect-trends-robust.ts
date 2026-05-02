@@ -284,15 +284,8 @@ async function main() {
   if (!results1) {
     console.error("\nFailed to fetch batch 1 after all retries.");
     console.error("This is the baseline batch — cannot proceed without it.");
-    const placeholder: TrendsFile = {
-      generated_at: new Date().toISOString(),
-      period: { start: "", end: "", timeframe },
-      region: geo,
-      note: "Google Trends API unavailable after retries. Rate-limited or blocked.",
-      candidates: {},
-    };
-    fs.writeFileSync(dataPath, JSON.stringify(placeholder, null, 2));
-    console.log(`Wrote placeholder to ${dataPath}`);
+    // Do NOT overwrite the existing file — preserve whatever data is already there.
+    console.log(`Leaving existing ${dataPath} intact.`);
     process.exit(1);
   }
 

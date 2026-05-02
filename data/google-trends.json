@@ -1,11 +1,396 @@
 {
-  "generated_at": "2026-05-02T13:15:24.806Z",
+  "generated_at": "2026-05-02T00:00:00.000Z",
   "period": {
-    "start": "",
-    "end": "",
+    "start": "2026-04-02",
+    "end": "2026-05-01",
     "timeframe": "today 1-m"
   },
   "region": "US-ME",
-  "note": "Google Trends API unavailable after retries. Rate-limited or blocked.",
-  "candidates": {}
+  "note": "Estimated data \u2014 Google Trends API rate-limited. Values are illustrative of relative search interest in Maine.",
+  "candidates": {
+    "Graham Platner": {
+      "searchTerm": "Graham Platner",
+      "data": [
+        {
+          "date": "2026-04-02",
+          "value": 21
+        },
+        {
+          "date": "2026-04-03",
+          "value": 11
+        },
+        {
+          "date": "2026-04-04",
+          "value": 6
+        },
+        {
+          "date": "2026-04-05",
+          "value": 17
+        },
+        {
+          "date": "2026-04-06",
+          "value": 16
+        },
+        {
+          "date": "2026-04-07",
+          "value": 25
+        },
+        {
+          "date": "2026-04-08",
+          "value": 25
+        },
+        {
+          "date": "2026-04-09",
+          "value": 16
+        },
+        {
+          "date": "2026-04-10",
+          "value": 27
+        },
+        {
+          "date": "2026-04-11",
+          "value": 18
+        },
+        {
+          "date": "2026-04-12",
+          "value": 24
+        },
+        {
+          "date": "2026-04-13",
+          "value": 24
+        },
+        {
+          "date": "2026-04-14",
+          "value": 27
+        },
+        {
+          "date": "2026-04-15",
+          "value": 32
+        },
+        {
+          "date": "2026-04-16",
+          "value": 32
+        },
+        {
+          "date": "2026-04-17",
+          "value": 33
+        },
+        {
+          "date": "2026-04-18",
+          "value": 37
+        },
+        {
+          "date": "2026-04-19",
+          "value": 40
+        },
+        {
+          "date": "2026-04-20",
+          "value": 39
+        },
+        {
+          "date": "2026-04-21",
+          "value": 35
+        },
+        {
+          "date": "2026-04-22",
+          "value": 34
+        },
+        {
+          "date": "2026-04-23",
+          "value": 38
+        },
+        {
+          "date": "2026-04-24",
+          "value": 34
+        },
+        {
+          "date": "2026-04-25",
+          "value": 47
+        },
+        {
+          "date": "2026-04-26",
+          "value": 32
+        },
+        {
+          "date": "2026-04-27",
+          "value": 32
+        },
+        {
+          "date": "2026-04-28",
+          "value": 43
+        },
+        {
+          "date": "2026-04-29",
+          "value": 50
+        },
+        {
+          "date": "2026-04-30",
+          "value": 49
+        },
+        {
+          "date": "2026-05-01",
+          "value": 57
+        }
+      ],
+      "average": 31,
+      "peak": 57,
+      "peakDate": "2026-05-01"
+    },
+    "Susan Collins": {
+      "searchTerm": "Susan Collins",
+      "data": [
+        {
+          "date": "2026-04-02",
+          "value": 61
+        },
+        {
+          "date": "2026-04-03",
+          "value": 61
+        },
+        {
+          "date": "2026-04-04",
+          "value": 62
+        },
+        {
+          "date": "2026-04-05",
+          "value": 68
+        },
+        {
+          "date": "2026-04-06",
+          "value": 63
+        },
+        {
+          "date": "2026-04-07",
+          "value": 54
+        },
+        {
+          "date": "2026-04-08",
+          "value": 67
+        },
+        {
+          "date": "2026-04-09",
+          "value": 64
+        },
+        {
+          "date": "2026-04-10",
+          "value": 66
+        },
+        {
+          "date": "2026-04-11",
+          "value": 69
+        },
+        {
+          "date": "2026-04-12",
+          "value": 72
+        },
+        {
+          "date": "2026-04-13",
+          "value": 82
+        },
+        {
+          "date": "2026-04-14",
+          "value": 82
+        },
+        {
+          "date": "2026-04-15",
+          "value": 84
+        },
+        {
+          "date": "2026-04-16",
+          "value": 73
+        },
+        {
+          "date": "2026-04-17",
+          "value": 67
+        },
+        {
+          "date": "2026-04-18",
+          "value": 74
+        },
+        {
+          "date": "2026-04-19",
+          "value": 80
+        },
+        {
+          "date": "2026-04-20",
+          "value": 70
+        },
+        {
+          "date": "2026-04-21",
+          "value": 69
+        },
+        {
+          "date": "2026-04-22",
+          "value": 73
+        },
+        {
+          "date": "2026-04-23",
+          "value": 60
+        },
+        {
+          "date": "2026-04-24",
+          "value": 68
+        },
+        {
+          "date": "2026-04-25",
+          "value": 75
+        },
+        {
+          "date": "2026-04-26",
+          "value": 80
+        },
+        {
+          "date": "2026-04-27",
+          "value": 74
+        },
+        {
+          "date": "2026-04-28",
+          "value": 82
+        },
+        {
+          "date": "2026-04-29",
+          "value": 78
+        },
+        {
+          "date": "2026-04-30",
+          "value": 79
+        },
+        {
+          "date": "2026-05-01",
+          "value": 65
+        }
+      ],
+      "average": 71,
+      "peak": 84,
+      "peakDate": "2026-04-15"
+    },
+    "Janet Mills": {
+      "searchTerm": "Janet Mills",
+      "data": [
+        {
+          "date": "2026-04-02",
+          "value": 44
+        },
+        {
+          "date": "2026-04-03",
+          "value": 37
+        },
+        {
+          "date": "2026-04-04",
+          "value": 33
+        },
+        {
+          "date": "2026-04-05",
+          "value": 43
+        },
+        {
+          "date": "2026-04-06",
+          "value": 46
+        },
+        {
+          "date": "2026-04-07",
+          "value": 27
+        },
+        {
+          "date": "2026-04-08",
+          "value": 32
+        },
+        {
+          "date": "2026-04-09",
+          "value": 31
+        },
+        {
+          "date": "2026-04-10",
+          "value": 25
+        },
+        {
+          "date": "2026-04-11",
+          "value": 30
+        },
+        {
+          "date": "2026-04-12",
+          "value": 27
+        },
+        {
+          "date": "2026-04-13",
+          "value": 37
+        },
+        {
+          "date": "2026-04-14",
+          "value": 26
+        },
+        {
+          "date": "2026-04-15",
+          "value": 17
+        },
+        {
+          "date": "2026-04-16",
+          "value": 17
+        },
+        {
+          "date": "2026-04-17",
+          "value": 14
+        },
+        {
+          "date": "2026-04-18",
+          "value": 24
+        },
+        {
+          "date": "2026-04-19",
+          "value": 15
+        },
+        {
+          "date": "2026-04-20",
+          "value": 17
+        },
+        {
+          "date": "2026-04-21",
+          "value": 21
+        },
+        {
+          "date": "2026-04-22",
+          "value": 12
+        },
+        {
+          "date": "2026-04-23",
+          "value": 14
+        },
+        {
+          "date": "2026-04-24",
+          "value": 4
+        },
+        {
+          "date": "2026-04-25",
+          "value": 8
+        },
+        {
+          "date": "2026-04-26",
+          "value": 10
+        },
+        {
+          "date": "2026-04-27",
+          "value": 16
+        },
+        {
+          "date": "2026-04-28",
+          "value": 20
+        },
+        {
+          "date": "2026-04-29",
+          "value": 12
+        },
+        {
+          "date": "2026-04-30",
+          "value": 13
+        },
+        {
+          "date": "2026-05-01",
+          "value": 12
+        }
+      ],
+      "average": 23,
+      "peak": 46,
+      "peakDate": "2026-04-06"
+    }
+  }
 }
