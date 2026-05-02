@@ -103,6 +103,24 @@ export function FieldView() {
   return (
     <div className="flex flex-col gap-3 p-3 pb-6 overflow-y-auto h-full">
 
+      {/* ── Disclaimer Banner ───────────────────────────────────────── */}
+      <div className="bg-terminal-red/10 border border-terminal-red/40 rounded px-4 py-3 flex flex-col gap-1">
+        <span className="text-terminal-red font-semibold tracking-widest uppercase text-terminal-sm">
+          ⚠ Illustrative Data Only — Not Real Field Numbers
+        </span>
+        <span className="text-terminal-xs text-terminal-dim leading-relaxed">
+          The figures below are mock data for demonstration purposes only. They do not reflect actual doors knocked, volunteer activity, or voter contact from the Graham Platner campaign. Real turf data is managed in VoteBuilder.
+        </span>
+        <a
+          href="https://www.votebuilder.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-terminal-xs text-terminal-cyan hover:text-terminal-yellow transition-colors tracking-wider mt-0.5"
+        >
+          → Access Graham Turf Data at votebuilder.com
+        </a>
+      </div>
+
       {/* ── Scoreboard ─────────────────────────────────────────────── */}
       <KpiStrip kpis={SCOREBOARD} />
 
