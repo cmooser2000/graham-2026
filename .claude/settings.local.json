@@ -17,7 +17,17 @@
       "Bash(npm run:*)",
       "Read(//opt/homebrew/bin/**)",
       "Read(//Users/chelseaconfalone/**)",
-      "Read(//Users/chelseaconfalone/.volta/bin/**)"
+      "Read(//Users/chelseaconfalone/.volta/bin/**)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:www.grahamforsenate.com)",
+      "WebFetch(domain:socialblade.com)",
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:commentpicker.com)",
+      "WebFetch(domain:ytpeek.com)",
+      "WebFetch(domain:jeffkeeling.github.io)",
+      "Bash(curl -s \"https://www.youtube.com/@grahamformaine\" -H \"User-Agent: Mozilla/5.0 \\(compatible; Googlebot/2.1\\)\")",
+      "Bash(curl -s \"https://www.youtube.com/@grahamformaine\" -H \"User-Agent: Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" -L)",
+      "Bash(curl -s \"https://www.youtube.com/feeds/videos.xml?channel_id=UCa_t4_O0On6PXNdXPciiyVw\")"
     ]
   }
 }

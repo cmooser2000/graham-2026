@@ -30,8 +30,8 @@ export function StatusBar() {
         <span className="text-terminal-yellow font-semibold tracking-wider leading-tight">GRAHAM 2026</span>
         <div className="flex items-center gap-2">
           <span className="text-terminal-blue text-terminal-xs tracking-wider">{ds.name}</span>
+          <span className="text-terminal-yellow text-terminal-xs shrink-0 font-semibold">GENERAL {generalDays}d</span>
           <span className="text-terminal-dim text-terminal-xs shrink-0">PRIMARY {primaryDays}d</span>
-          <span className="text-terminal-dim text-terminal-xs shrink-0">GENERAL {generalDays}d</span>
         </div>
       </div>
       <div className="flex items-center gap-2 tabular-nums shrink-0 whitespace-nowrap">

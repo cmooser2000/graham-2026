@@ -56,7 +56,7 @@ export function PollsSection() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api/polls?limit=30")
+    fetch("/api/polls?limit=30&race=ME-General")
       .then((r) => r.json())
       .then(setData)
       .catch(() => {})
@@ -82,18 +82,20 @@ export function PollsSection() {
             No polls available yet
           </p>
           <p className="text-terminal-sm text-terminal-dim mt-1">
-            Primary polling will appear here as the 2026 race heats up
+            General election polling will appear here as the 2026 race heats up
           </p>
         </div>
       </div>
     );
   }
 
-  // Compute candidate averages across all polls
+  // Compute candidate averages — general election only, Platner & Collins
+  const GENERAL_CANDIDATES = ["Graham Platner", "Susan Collins"];
   const totals: Record<string, { sum: number; count: number; party: string }> = {};
   for (const poll of data.polls) {
     for (const r of poll.results) {
       const name = r.matched_name || r.candidate_name;
+      if (!GENERAL_CANDIDATES.includes(name)) continue; // skip Mills, Undecided, etc.
       const party = r.matched_party || r.party || "";
       if (!totals[name]) totals[name] = { sum: 0, count: 0, party };
       totals[name].sum += r.percentage;
@@ -111,9 +113,12 @@ export function PollsSection() {
     <div className="flex flex-col gap-3">
       {/* Poll Averages */}
       <div className="flex flex-col gap-2">
-        <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">
-          Poll Averages
-        </h3>
+        <div className="flex items-baseline gap-2">
+          <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">
+            Poll Averages
+          </h3>
+          <span className="text-terminal-xs text-terminal-blue tracking-wider">GENERAL ELECTION — PLATNER vs. COLLINS</span>
+        </div>
         <div className="flex flex-col gap-1">
           {averages.map((c) => {
             const isPlatner = c.name.toLowerCase().includes("platner");
@@ -158,7 +163,7 @@ export function PollsSection() {
       {/* Recent Polls Table */}
       <div className="flex flex-col gap-2">
         <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">
-          Recent Polls
+          Recent General Election Polls
         </h3>
         <div className="flex flex-col gap-1">
           {/* Header */}

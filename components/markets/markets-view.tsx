@@ -50,10 +50,10 @@ export function MarketsView() {
     const leader = kalshiCands[0];
 
     marketKpis.push(
-      { label: "WIN PROB", value: markets.weighted_average_odds !== null ? `${markets.weighted_average_odds}%` : "--", color: "yellow", sub: "Platner weighted avg" },
+      { label: "WIN PRIMARY", value: markets.weighted_average_odds !== null ? `${markets.weighted_average_odds}%` : "--", color: "yellow", sub: "Platner weighted avg" },
       { label: "TOP 2", value: markets.average_top2 !== null ? `${markets.average_top2}%` : "--", color: "cyan", sub: "Harville model" },
       { label: "VOLUME", value: fmtVol, color: "dim", sub: "Kalshi + Polymarket" },
-      { label: "FIELD", value: `${fieldSize}`, color: "dim", sub: leader ? `Lead: ${leader.name.split(" ").pop()}` : "" },
+      { label: "CANDIDATES", value: `${fieldSize}`, color: "dim", sub: leader ? `Lead: ${leader.name.split(" ").pop()}` : "" },
     );
   }
 

@@ -16,12 +16,21 @@ function loadPollsFromJson() {
 export async function GET(req: NextRequest) {
   const data = loadPollsFromJson();
   const limit = parseInt(req.nextUrl.searchParams.get("limit") || "30", 10);
+  const race = req.nextUrl.searchParams.get("race") || "ME-General";
 
-  const polls = (data.polls || []).slice(0, limit);
+  let polls = (data.polls || []);
+
+  // Filter by race type if specified
+  if (race !== "all") {
+    polls = polls.filter((p: { race?: string }) => p.race === race);
+  }
+
+  polls = polls.slice(0, limit);
 
   return NextResponse.json({
     poll_count: polls.length,
     polls,
+    race_filter: race,
     source: data.data_source || "data/polls.json",
     note: data.note || null,
   });
