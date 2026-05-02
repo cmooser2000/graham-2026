@@ -196,10 +196,11 @@ export async function fetchKalshi(): Promise<MarketData> {
       const name = market.no_sub_title || market.title || "";
       const party = (market.subtitle || "").replace(/::/g, "").trim();
 
-      const yesBid = market.yes_bid ?? 0;
-      const odds = Math.round(yesBid * 10) / 10;
+      // API returns yes_bid_dollars as a string like "0.9810"; multiply by 100 for percentage
+      const yesBidStr = market.yes_bid_dollars ?? market.last_price_dollars ?? "0";
+      const odds = Math.round(parseFloat(yesBidStr) * 1000) / 10;
 
-      const volume = market.volume || 0;
+      const volume = parseFloat(market.volume_fp || market.volume || "0");
       totalVolume += volume;
 
       const candidate: Candidate = {
