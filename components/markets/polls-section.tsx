@@ -113,12 +113,9 @@ export function PollsSection() {
     <div className="flex flex-col gap-3">
       {/* Poll Averages */}
       <div className="flex flex-col gap-2">
-        <div className="flex items-baseline gap-2">
-          <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">
-            Poll Averages
-          </h3>
-          <span className="text-terminal-xs text-terminal-blue tracking-wider">GENERAL ELECTION — PLATNER vs. COLLINS</span>
-        </div>
+        <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">
+          Poll Averages
+        </h3>
         <div className="flex flex-col gap-1">
           {averages.map((c) => {
             const isPlatner = c.name.toLowerCase().includes("platner");
@@ -163,7 +160,7 @@ export function PollsSection() {
       {/* Recent Polls Table */}
       <div className="flex flex-col gap-2">
         <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">
-          Recent General Election Polls
+          Recent Polls
         </h3>
         <div className="flex flex-col gap-1">
           {/* Header */}
