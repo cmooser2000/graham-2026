@@ -15,7 +15,10 @@ export function OddsLeaderboard({ polymarket, kalshi }: OddsLeaderboardProps) {
   return (
     <div className="flex flex-col gap-2">
       <div className="flex items-center justify-between">
-        <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">Candidate Odds</h3>
+        <div className="flex items-baseline gap-2">
+          <h3 className="text-terminal-base text-terminal-dim font-medium tracking-wider uppercase">Candidate Odds</h3>
+          <span className="text-terminal-xs text-terminal-dim tracking-wider">D PRIMARY</span>
+        </div>
         <div className="flex gap-1">
           {(["kalshi", "polymarket"] as const).map(tab => (
             <button

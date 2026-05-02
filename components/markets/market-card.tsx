@@ -12,13 +12,18 @@ export function MarketCard({ market }: MarketCardProps) {
 
   return (
     <div className="flex-1 bg-terminal-panel border border-border rounded p-3 min-w-0">
-      <div className="flex items-center justify-between mb-2">
+      <div className="flex items-center justify-between mb-1">
         <span className="text-terminal-sm text-terminal-blue font-semibold tracking-widest uppercase">
           {market.source}
         </span>
         {market.error && (
           <span className="text-terminal-xs text-terminal-red">ERR</span>
         )}
+      </div>
+      <div className="mb-2">
+        <span className="text-[9px] text-terminal-dim tracking-widest uppercase bg-terminal-raised border border-border rounded px-1.5 py-0.5">
+          D PRIMARY — Nom. Market
+        </span>
       </div>
 
       {platner ? (
