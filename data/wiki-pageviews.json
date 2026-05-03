@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-05-02T19:01:50.098Z",
+  "generated_at": "2026-05-03T03:23:14.136Z",
   "period": {
-    "start": "2026-02-01",
-    "end": "2026-05-01"
+    "start": "2026-02-02",
+    "end": "2026-05-02"
   },
   "candidates": {
     "Graham Platner": {
       "article": "Graham_Platner",
       "url": "https://en.wikipedia.org/wiki/Graham_Platner",
       "daily": [
-        {
-          "date": "2026-02-01",
-          "views": 5849
-        },
         {
           "date": "2026-02-02",
           "views": 2750
@@ -43,15 +39,15 @@
         },
         {
           "date": "2026-02-09",
-          "views": 1498
+          "views": 1497
         },
         {
           "date": "2026-02-10",
-          "views": 2836
+          "views": 2827
         },
         {
           "date": "2026-02-11",
-          "views": 2522
+          "views": 2516
         },
         {
           "date": "2026-02-12",
@@ -59,11 +55,11 @@
         },
         {
           "date": "2026-02-13",
-          "views": 2681
+          "views": 2680
         },
         {
           "date": "2026-02-14",
-          "views": 1571
+          "views": 1569
         },
         {
           "date": "2026-02-15",
@@ -368,19 +364,19 @@
         {
           "date": "2026-05-01",
           "views": 71337
+        },
+        {
+          "date": "2026-05-02",
+          "views": 30941
         }
       ],
-      "total": 427396,
-      "average": 4749
+      "total": 452469,
+      "average": 5027
     },
     "Susan Collins": {
       "article": "Susan_Collins",
       "url": "https://en.wikipedia.org/wiki/Susan_Collins",
       "daily": [
-        {
-          "date": "2026-02-01",
-          "views": 3542
-        },
         {
           "date": "2026-02-02",
           "views": 2257
@@ -411,31 +407,31 @@
         },
         {
           "date": "2026-02-09",
-          "views": 1218
+          "views": 1208
         },
         {
           "date": "2026-02-10",
-          "views": 9814
+          "views": 9797
         },
         {
           "date": "2026-02-11",
-          "views": 7062
+          "views": 7046
         },
         {
           "date": "2026-02-12",
-          "views": 4826
+          "views": 4808
         },
         {
           "date": "2026-02-13",
-          "views": 3466
+          "views": 3458
         },
         {
           "date": "2026-02-14",
-          "views": 4602
+          "views": 4599
         },
         {
           "date": "2026-02-15",
-          "views": 2485
+          "views": 2476
         },
         {
           "date": "2026-02-16",
@@ -736,19 +732,19 @@
         {
           "date": "2026-05-01",
           "views": 12736
+        },
+        {
+          "date": "2026-05-02",
+          "views": 5085
         }
       ],
-      "total": 178810,
-      "average": 1987
+      "total": 180272,
+      "average": 2003
     },
     "Janet Mills": {
       "article": "Janet_Mills",
       "url": "https://en.wikipedia.org/wiki/Janet_Mills",
       "daily": [
-        {
-          "date": "2026-02-01",
-          "views": 2179
-        },
         {
           "date": "2026-02-02",
           "views": 2008
@@ -779,31 +775,31 @@
         },
         {
           "date": "2026-02-09",
-          "views": 597
+          "views": 588
         },
         {
           "date": "2026-02-10",
-          "views": 1677
+          "views": 1672
         },
         {
           "date": "2026-02-11",
-          "views": 1742
+          "views": 1737
         },
         {
           "date": "2026-02-12",
-          "views": 1330
+          "views": 1324
         },
         {
           "date": "2026-02-13",
-          "views": 1043
+          "views": 1036
         },
         {
           "date": "2026-02-14",
-          "views": 688
+          "views": 681
         },
         {
           "date": "2026-02-15",
-          "views": 681
+          "views": 674
         },
         {
           "date": "2026-02-16",
@@ -1104,10 +1100,14 @@
         {
           "date": "2026-05-01",
           "views": 10056
+        },
+        {
+          "date": "2026-05-02",
+          "views": 3769
         }
       ],
-      "total": 123031,
-      "average": 1367
+      "total": 124575,
+      "average": 1384
     }
   }
 }
